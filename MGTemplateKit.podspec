@@ -9,34 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'MGTemplateKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MGTemplateKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/AldoOS/MGTemplateKit'
+  s.summary          = "When you sit down to work, external critics aren’t"
+  s.description      = "When you sit down to work, external critics aren’t the enemy. It’s you who you must to fight against to do great fucking work. You must overcome yourself. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the fucking possibility of failure. The details are not the details. They make the fucking design. To go partway is easy, but mastering anything requires hard fucking work. Don’t worry about what other people fucking think. Never, never assume that what you have achieved is fucking good."
+  s.homepage         = 'https://bitbucket.org/haraldbregu/mgtemplatekit/src'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AldoOS' => 'harald.bregu@gmail.com' }
-  s.source           = { :git => 'https://github.com/AldoOS/MGTemplateKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.source           = { :git => 'https://haraldbregu@bitbucket.org/haraldbregu/mgtemplatekit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'MGTemplateKit/Classes/**/*'
   
   # s.resource_bundles = {
   #   'MGTemplateKit' => ['MGTemplateKit/Assets/*.png']
   # }
 
+  s.swift_version = '4.2'
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

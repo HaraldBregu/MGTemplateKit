@@ -1,0 +1,16 @@
+PODS:
+  - MGTemplateKit (0.1.0)
+
+DEPENDENCIES:
+  - MGTemplateKit (from `../`)
+
+EXTERNAL SOURCES:
+  MGTemplateKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MGTemplateKit: da215adf489c7911c7080be5ceb8da53b6e3fba9
+
+PODFILE CHECKSUM: 21fb00a5d520bdb36d696ad65273725b299dc9b9
+
+COCOAPODS: 1.6.1
