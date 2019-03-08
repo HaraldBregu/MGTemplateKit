@@ -1,5 +1,5 @@
 PODS:
-  - MGTemplateKit (0.1.2):
+  - MGTemplateKit (0.1.4):
     - UIColor_Hex_Swift (~> 4.2.0)
   - UIColor_Hex_Swift (4.2.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MGTemplateKit: 37cbbec00b689de2f8a0e3559143da88047ead54
+  MGTemplateKit: 3535e5c9761e669b2cd0afebaed9ffc6424c8cea
   UIColor_Hex_Swift: bc07fc197421ee896b9ed6dcfa2054b7fbf75145
 
 PODFILE CHECKSUM: 0b1d62785c60515555d171546bfb8e6802443dd5

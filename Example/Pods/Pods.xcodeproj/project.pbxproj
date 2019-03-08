@@ -7,72 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ADE6A04F4708B96E2890D7B39A3E5ED /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9FB02233725C30AE33394677C8CED24 /* Roboto-Bold.ttf */; };
-		1D49D9BB6A7D8023095B159D1CBC0117 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1173024843A2EA9482C1B6C73D00186A /* UIKit.framework */; };
-		2758E3A7CDE6A34F7946D61362F62319 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE04B90638D14ED8904AEC94401025C4 /* Roboto-LightItalic.ttf */; };
-		27FEC02485E0376257C85548187502E1 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00AC819850F0EFE75F63CD3D8AD4747A /* Roboto-Light.ttf */; };
-		2842186C7251ADD720A4CFA61E2D91D9 /* Ionicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E1FDC788D68E076EB470BC57360A7 /* Ionicons.swift */; };
-		2B6772F1DD868DB0D490449796C90875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A4922CAE8EA31DD759A74CDB5063D /* Foundation.framework */; };
-		3230274CCD930DCC064BF4FA347731EC /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44FB5CC95799723FA0B85BCC0323DBB6 /* FontAwesome.ttf */; };
-		3CC5E74645EF35217B2A8998D30ECB7B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E066ECCCA5476611CF80B5A96FCDB96C /* UIColorExtension.swift */; };
-		3DEB36B0E4EBCCB53864A56AC8FF4B2E /* SwiftIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D42738F0756336D96DD1D36B87A94 /* SwiftIcons.swift */; };
-		40EA6E520321AC0F3F7BD63B07BE509E /* UIColor_Hex_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCE43C55EFC537B7E60C5B8BF131D80F /* UIColor_Hex_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43E278F02A48B2D3E538DD916ADA97E0 /* DateFormatter+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA576D174D5DEB6857F3772602DA5E0 /* DateFormatter+New.swift */; };
+		00A0FF291005CDF241C4D5EEEA135DD6 /* UIColor_Hex_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCE43C55EFC537B7E60C5B8BF131D80F /* UIColor_Hex_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05952752D27261631CA91072AE03C624 /* DateFormatter+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9876D6EDBDF56FE52F19C4F0E8B7D1 /* DateFormatter+New.swift */; };
+		0C5207E2FC208C27CB5AB20BDADB0CD7 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2544C755159E0E440BA36E86C782D95E /* Roboto-LightItalic.ttf */; };
+		0D3E479FDEA10FD7122F1CDEFF80066D /* UIColor_Hex_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E678A2275D71E01D69F08768AFF05B /* UIColor_Hex_Swift.framework */; };
+		1262B0778FAA80075DDCEDE9EC88D3C3 /* MaterialDesignIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676AE2C90D2E29CE07ADF9D465CB9002 /* MaterialDesignIcons.swift */; };
+		1694AA1A1B09FEACFA45A6BC6598B441 /* FontAwesomeBrands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 885CC96628E8C5BC867F4D2064D6BA8D /* FontAwesomeBrands.ttf */; };
+		1815D5BBB56FDFF20D766AAB01A48F4B /* UIGestureRecognizer+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A92A7F1099EB29A983F4A8767B74CA1 /* UIGestureRecognizer+New.swift */; };
+		1B7BC9C257E1EA471F36DF41B7F2AF53 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3949FB67556CF9B6DB8ECC6FC40EEA19 /* MaterialIcons.ttf */; };
+		264F75429AD0AF9169ADAB0C52FCF1D4 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965C1EFD9B12039C3BF77FB29F945C6C /* StringExtension.swift */; };
+		26E44E0AADA3146853A90C2899564327 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 696751C55F6E2A46D98CB7D842E11D3B /* Roboto-Thin.ttf */; };
+		2998D5E2FF3C2B5F3A6B6673FD31D761 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFCABDC23D93D15CA032C5C27FB1B064 /* Roboto-Light.ttf */; };
+		3C605C2C0DE78E447404B61A9D046DE9 /* MGTemplateKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 504F8080F3F2F3D2A959CB6173852158 /* MGTemplateKit.bundle */; };
+		3FF956094FF31D01B21699BEA94B0B57 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 196F9EF0921FB8C6B2A43407DEBCA7F9 /* Roboto-ThinItalic.ttf */; };
 		47E0305C32AE8D08B57FAD4DE827C8A3 /* Pods-MGTemplateKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E710C1E2331BC49D093A76C09012A2B /* Pods-MGTemplateKit_Example-dummy.m */; };
-		4963DD0F680069BD659D9CF57333A2F2 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 680BD4FA1A2F3778692931C7EC456421 /* MaterialIcons.ttf */; };
-		49BA5183019ABD51D44FB7325FCF0F4C /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09D4B9A21407092C664692263A52C9C1 /* Roboto-BoldItalic.ttf */; };
-		4DC70CFC077BE50C260B65ADFFB0DC92 /* MGTemplateKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8228688C6A2B7CE954949EC38E121D /* MGTemplateKit-dummy.m */; };
-		52620A5B5A90D8653B716641D19D7F2F /* FontAwesomeBrands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A01658C3CFA135664EABB3DF674FC409 /* FontAwesomeBrands.ttf */; };
-		55C917D78E871FA7EA1D4059B36E9E8E /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6006C3BF0933BE528F36FF861068451B /* Roboto-Medium.ttf */; };
-		614330432CABC6498888B96186C6611F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31119EFD5146076FD54362AA38D76EE5 /* Roboto-Regular.ttf */; };
-		6A33B272A4DD5661D19FEB751CFDE503 /* UIColor_Hex_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C7AD3986EB0BE9F263F76E2AD092DB /* UIColor_Hex_Swift-dummy.m */; };
-		6BCF0416C7C66E98FB4D7D12E4328E5B /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B945950A9FFC90A10BD0BB087F95DC9F /* Roboto-Italic.ttf */; };
-		6C58F42E61F53FFA9667AF753D5399BB /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35F710BDB2ABD0933F48AFD3850B3C12 /* Roboto-Thin.ttf */; };
-		6DA473C522AADC21A7CF9B9671BF25AA /* MGTemplateKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3D42FDB7248C471F2A886CA3E532F0 /* MGTemplateKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		720FB91926D3E7B9D2C2FC08EB28DE94 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E610B03B7BC1D6F4EDB103FCC84EAC5A /* Roboto-BlackItalic.ttf */; };
-		744A740712383E1044EF8079F572F512 /* UIColor_Hex_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E678A2275D71E01D69F08768AFF05B /* UIColor_Hex_Swift.framework */; };
-		74C38C6D45E47D1F92522D2127FB3DAB /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 707E7689411613DDE3427E2F2E27E40E /* Roboto-MediumItalic.ttf */; };
-		7C9E21F1B4CD17D12A90AC020FE41E0A /* MaterialDesignIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F3D7E84E53E9E056003209754AE1C /* MaterialDesignIcons.swift */; };
-		85EA24175A6AE24B0E8EB28BAC75F1A5 /* VaadinIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC1C4B5AE0EAD77EEF52D39D618068 /* VaadinIcons.swift */; };
-		88EF1D5ECCDDF589A24B3FD9E33D8A2E /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1586DF4B4F0D30C7DE4FFEA0FB80947D /* Roboto-ThinItalic.ttf */; };
-		8BE1F5BC320E5C89EF0AB71D4941642B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A4922CAE8EA31DD759A74CDB5063D /* Foundation.framework */; };
+		48972E895E84E9EC779FE20D4448EBFC /* SwiftIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241844C61FCB86545D2DA13F3909734F /* SwiftIcons.swift */; };
+		48C65F0AF8BB01591E9B60AF83ECFB68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A4922CAE8EA31DD759A74CDB5063D /* Foundation.framework */; };
+		4A74D6C62DEF008F5F7EED9ABFBFBBE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1173024843A2EA9482C1B6C73D00186A /* UIKit.framework */; };
+		4D1CA315C398A86F5AE4DF3F062FEE08 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF85C4C77A8C2D6604C03511B9DB40E0 /* Roboto-BoldItalic.ttf */; };
+		4DA501C7095A1666EE8AFA8C45E3A038 /* MGTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC79E62D13200A78235ACBFE1602C7 /* MGTemplate.swift */; };
+		4EE4AC68D26FE9BA14213802B080DBE1 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B16AD8832830ABCFF85CA84974075FDB /* Roboto-Regular.ttf */; };
+		58CC84AF2D8648C6630A021BD97DDE5F /* FontAwesomeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F33804C112FF6738AC58557D38127A20 /* FontAwesomeRegular.ttf */; };
+		59588824EEAFBCE0ECAD6EAC07A09AE2 /* Bundle+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC86AA0ECA1F408DC42A4B00D215954 /* Bundle+New.swift */; };
+		5D0E23EEC553A9E4E88AB2D4424EA093 /* UIImage+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F8931E33E3E9BE441E9AB790871C8 /* UIImage+New.swift */; };
+		64C587CE43B1809847053EA6C465274E /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A2BF616E4F9497809503EB4565125 /* FontAwesome.swift */; };
+		69A252AD14742379E66ABF0FB9531AEF /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E4B614A959B2F6D0D43C835D70C63DF /* Roboto-Medium.ttf */; };
+		6F83187F20C2EAAFB848C2005DC0A58B /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E7E8066E5CF224DE43BCD36B66FF0CB /* FontAwesome.ttf */; };
+		75A6D02E06D8F5D9896E0DDB99EA1B2B /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36F0BDA3CAC6F3B7BAD71FED9E21825 /* FontLoader.swift */; };
+		76920FA6113FA8B220DA0BEADAAA44C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A4922CAE8EA31DD759A74CDB5063D /* Foundation.framework */; };
+		78AADDD5B9CE4CA881973F038953A732 /* HEXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B5F24E58F0492EA6DCFA21700FC6AA /* HEXColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DA70A26C2E19485807321FC99B6252 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 743932BF82BD2C778D05643F047ACD05 /* Ionicons.ttf */; };
+		85E6C533EB07EBE06D658B188D0A6EFC /* UIColorInputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFBEC05B4F799D079BBC90AC0C80AD /* UIColorInputError.swift */; };
+		86AA951EFF1D7582B460B0E57F157FF3 /* MGTemplateKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D230AD91C5BA0802A918A1332CED44B /* MGTemplateKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88DDD99A44F5039AD0B5B3DF028FF7C5 /* FontAwesomeSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5A6E92D44B27F892341B6669CDF186F /* FontAwesomeSolid.ttf */; };
 		8D91A124868A3F4EAC077D1D0321238A /* Pods-MGTemplateKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C02956EBAF1278FEB833C5FF652105 /* Pods-MGTemplateKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		931CDDC89D1912962A0AE52EE3D48326 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4031EF1C2E291F187F1AD5D66CF153C7 /* Ionicons.ttf */; };
-		9AC5C481950566A913F1B1B9386B7DF3 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A91DDB1CBA5C7F52E40911331CF5E /* FontAwesome.swift */; };
-		A98717D8223306CE007098F0 /* Bundle+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98717D7223306CE007098F0 /* Bundle+New.swift */; };
-		A98717D9223309F9007098F0 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44FB5CC95799723FA0B85BCC0323DBB6 /* FontAwesome.ttf */; };
-		A98717DA223309F9007098F0 /* FontAwesomeBrands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A01658C3CFA135664EABB3DF674FC409 /* FontAwesomeBrands.ttf */; };
-		A98717DB223309F9007098F0 /* FontAwesomeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 503A1CDD0778A57A595CAF97BEDC05DB /* FontAwesomeRegular.ttf */; };
-		A98717DC223309F9007098F0 /* FontAwesomeSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09645AFEC5D731B63464BE2E8CE724E2 /* FontAwesomeSolid.ttf */; };
-		A98717DD223309F9007098F0 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4031EF1C2E291F187F1AD5D66CF153C7 /* Ionicons.ttf */; };
-		A98717DE223309F9007098F0 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 680BD4FA1A2F3778692931C7EC456421 /* MaterialIcons.ttf */; };
-		A98717DF223309F9007098F0 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C13FCEE26AB0DAE3DC64A259507DAA7 /* Roboto-Black.ttf */; };
-		A98717E0223309F9007098F0 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E610B03B7BC1D6F4EDB103FCC84EAC5A /* Roboto-BlackItalic.ttf */; };
-		A98717E1223309F9007098F0 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9FB02233725C30AE33394677C8CED24 /* Roboto-Bold.ttf */; };
-		A98717E2223309F9007098F0 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09D4B9A21407092C664692263A52C9C1 /* Roboto-BoldItalic.ttf */; };
-		A98717E3223309F9007098F0 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B945950A9FFC90A10BD0BB087F95DC9F /* Roboto-Italic.ttf */; };
-		A98717E4223309F9007098F0 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00AC819850F0EFE75F63CD3D8AD4747A /* Roboto-Light.ttf */; };
-		A98717E5223309F9007098F0 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE04B90638D14ED8904AEC94401025C4 /* Roboto-LightItalic.ttf */; };
-		A98717E6223309F9007098F0 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6006C3BF0933BE528F36FF861068451B /* Roboto-Medium.ttf */; };
-		A98717E7223309F9007098F0 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 707E7689411613DDE3427E2F2E27E40E /* Roboto-MediumItalic.ttf */; };
-		A98717E8223309F9007098F0 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31119EFD5146076FD54362AA38D76EE5 /* Roboto-Regular.ttf */; };
-		A98717E9223309F9007098F0 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35F710BDB2ABD0933F48AFD3850B3C12 /* Roboto-Thin.ttf */; };
-		A98717EA223309F9007098F0 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1586DF4B4F0D30C7DE4FFEA0FB80947D /* Roboto-ThinItalic.ttf */; };
+		924B8DFECD1E60DF3314ED2C916B2C12 /* Data+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5055EBD0C203FE3BA053C6C38610A0D /* Data+New.swift */; };
+		9EC66487059F383866F37A7CFC019734 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1180B5E675B46AC71485FF28D41A3BA /* Roboto-Black.ttf */; };
+		A508698550BB9079E229377A80E7A01F /* MGTemplateKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DBFB044726D63F329403EC66D202DF /* MGTemplateKit-dummy.m */; };
 		AB925C48040549615C516E9F2BFD9139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A4922CAE8EA31DD759A74CDB5063D /* Foundation.framework */; };
-		AF3EA7D3CD54596CA0734ACE63CACC74 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965C1EFD9B12039C3BF77FB29F945C6C /* StringExtension.swift */; };
-		B06EEEA5D108AB2736B2D59173E096AB /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C13FCEE26AB0DAE3DC64A259507DAA7 /* Roboto-Black.ttf */; };
-		B2463907AD7FA7C946C4A8E4A03EDA5B /* String+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3C060A096F191414BCA35FAE6D813 /* String+New.swift */; };
-		C29C0DB47DEBB1474F4E4306277FE27F /* HEXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B5F24E58F0492EA6DCFA21700FC6AA /* HEXColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C517484E306C26E21EC81ED91CAE7D93 /* FontAwesomeSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09645AFEC5D731B63464BE2E8CE724E2 /* FontAwesomeSolid.ttf */; };
-		CAE624ECC97C1C1ED024B1B4EF3AA20A /* MGTemplateKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 504F8080F3F2F3D2A959CB6173852158 /* MGTemplateKit.bundle */; };
-		CD3244C4835A717857F5F4955CA92C2A /* UIGestureRecognizer+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F8B21B3B8FED35A5B836490A0D5EC /* UIGestureRecognizer+New.swift */; };
-		CEB28CE078FCA4339490A022E14D025E /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4AF9B61297FAD0F10479C3D4FB7571 /* FontLoader.swift */; };
-		CF0DEC33B85B3C240C442B8B30CE30DB /* UIImage+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51C012F44191BBD82A7E84FA4C6A3D /* UIImage+New.swift */; };
-		CF81CABA0F986FB8951DFC7455709259 /* Data+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A92748C46BAED0EE14FD569E053FB /* Data+New.swift */; };
-		DDCAFD79F8C198C93D807167BFCB4632 /* UIControl+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7842E5F8265D236B165CCDDFF1C20D /* UIControl+New.swift */; };
-		E735A16816EC38EAAC3A3D517293218A /* UIColorInputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFBEC05B4F799D079BBC90AC0C80AD /* UIColorInputError.swift */; };
-		F0B266F6A4AD408C2DD8DABE36344721 /* MGTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FA8919F8D9306722B86A1388CC8EC7 /* MGTemplate.swift */; };
-		F63ED40B28C9E8BDD24049BA1ADD1962 /* FontAwesomeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 503A1CDD0778A57A595CAF97BEDC05DB /* FontAwesomeRegular.ttf */; };
+		B1D276AAD7688AB952B52EE2E6864CBE /* UIControl+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557F8F638919DC393766BC548FD75E2E /* UIControl+New.swift */; };
+		CAB95B64B3A3236D4CD8A05A15C42686 /* VaadinIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0275F95C35C20736DAAD51201AA529 /* VaadinIcons.swift */; };
+		CFF122C54211DF24B3C251BB4DCFE8FE /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA71CC9CE833DD9A5E2876A5DD034AFB /* Roboto-MediumItalic.ttf */; };
+		D05B8198FA6C227C50B4D2E7D074A807 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC812965C473CF057087A294676738A8 /* Roboto-Italic.ttf */; };
+		D47076FE997F79F531DB474554F65809 /* String+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A2A41E90EAB7B08C3A63B6E37D8F3 /* String+New.swift */; };
+		E59544278A30D9F66D7A0D78927B0E55 /* Ionicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCD189E9E5708927CAD26CFCA642675 /* Ionicons.swift */; };
+		E5CD7F2A04AAD2F707DE88C4A7B1F773 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A18E7C16792829108424DE9846F7E332 /* Roboto-Bold.ttf */; };
+		EC4F9FBA59A2D17AEF3E3A2C48AEE516 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E066ECCCA5476611CF80B5A96FCDB96C /* UIColorExtension.swift */; };
+		F635E53BD3379252898888ACE4480F1B /* UIColor_Hex_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C7AD3986EB0BE9F263F76E2AD092DB /* UIColor_Hex_Swift-dummy.m */; };
+		FEC1667B31066955073A46D8BB6DDAEE /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC73B943D2460EB62495B6969CF9CDB9 /* Roboto-BlackItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,105 +62,121 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FC0F19847CD8686894029E84E305E2EE;
+			remoteGlobalIDString = 79E070F6F2701EBB70B904671D1D79BF;
 			remoteInfo = UIColor_Hex_Swift;
 		};
-		8FD1C4A6DC148E2D5772B880BD17DBCB /* PBXContainerItemProxy */ = {
+		5B06848D683D399839B7943000128C89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FC0F19847CD8686894029E84E305E2EE;
-			remoteInfo = UIColor_Hex_Swift;
-		};
-		D6D076ABA0EA88E5F79ED7E181F9E4D6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 138303166167167284C7ADBF0820D0EF;
+			remoteGlobalIDString = 79E57B31EDD69055608261D7E6BB981E;
 			remoteInfo = "MGTemplateKit-MGTemplateKit";
+		};
+		6A466688C2B63DB456E4DBC9D998FCA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E070F6F2701EBB70B904671D1D79BF;
+			remoteInfo = UIColor_Hex_Swift;
 		};
 		DAE4600300A26F5088D43799BBA1F86C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5A4829DA7B8D386CD706F4B5C6B7A2A6;
+			remoteGlobalIDString = 5FBE82A733D2037E24E57272D0FD4AD0;
 			remoteInfo = MGTemplateKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00AC819850F0EFE75F63CD3D8AD4747A /* Roboto-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "MGTemplateKit/Assets/Roboto-Light.ttf"; sourceTree = "<group>"; };
-		09645AFEC5D731B63464BE2E8CE724E2 /* FontAwesomeSolid.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesomeSolid.ttf; path = MGTemplateKit/Assets/FontAwesomeSolid.ttf; sourceTree = "<group>"; };
-		09D4B9A21407092C664692263A52C9C1 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-BoldItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		07DBFB044726D63F329403EC66D202DF /* MGTemplateKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGTemplateKit-dummy.m"; sourceTree = "<group>"; };
+		0A92A7F1099EB29A983F4A8767B74CA1 /* UIGestureRecognizer+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIGestureRecognizer+New.swift"; sourceTree = "<group>"; };
+		0F7A2A41E90EAB7B08C3A63B6E37D8F3 /* String+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+New.swift"; sourceTree = "<group>"; };
 		1173024843A2EA9482C1B6C73D00186A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1586DF4B4F0D30C7DE4FFEA0FB80947D /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-ThinItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
-		1683FDADFEC0AB396214D064EC2D13E8 /* MGTemplateKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGTemplateKit.modulemap; sourceTree = "<group>"; };
-		1CC5B315B1BBC05C87373800281DBBE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		196F9EF0921FB8C6B2A43407DEBCA7F9 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-ThinItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		20329D51C774ABD3A05D20862EAFB24A /* MGTemplateKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGTemplateKit-prefix.pch"; sourceTree = "<group>"; };
 		241667547BA614572935DC36475CE471 /* Pods-MGTemplateKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGTemplateKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		285A91DDB1CBA5C7F52E40911331CF5E /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = MGTemplateKit/Classes/FontAwesome.swift; sourceTree = "<group>"; };
+		241844C61FCB86545D2DA13F3909734F /* SwiftIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIcons.swift; path = MGTemplateKit/Classes/SwiftIcons.swift; sourceTree = "<group>"; };
+		2544C755159E0E440BA36E86C782D95E /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-LightItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		2E4B614A959B2F6D0D43C835D70C63DF /* Roboto-Medium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "MGTemplateKit/Assets/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		2F0275F95C35C20736DAAD51201AA529 /* VaadinIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VaadinIcons.swift; path = MGTemplateKit/Classes/VaadinIcons.swift; sourceTree = "<group>"; };
 		2F3A4922CAE8EA31DD759A74CDB5063D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		31119EFD5146076FD54362AA38D76EE5 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "MGTemplateKit/Assets/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		2F49DAA04331864A0946052F9E96CDF7 /* MGTemplateKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MGTemplateKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		35D0D2777DE383BB3152D948AAD3A5BD /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35F710BDB2ABD0933F48AFD3850B3C12 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "MGTemplateKit/Assets/Roboto-Thin.ttf"; sourceTree = "<group>"; };
-		39FA8919F8D9306722B86A1388CC8EC7 /* MGTemplate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGTemplate.swift; path = MGTemplateKit/Classes/MGTemplate.swift; sourceTree = "<group>"; };
-		3C13FCEE26AB0DAE3DC64A259507DAA7 /* Roboto-Black.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "MGTemplateKit/Assets/Roboto-Black.ttf"; sourceTree = "<group>"; };
-		4031EF1C2E291F187F1AD5D66CF153C7 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Ionicons.ttf; path = MGTemplateKit/Assets/Ionicons.ttf; sourceTree = "<group>"; };
-		44D7FA864110D9379873DF8E71A320E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		44FB5CC95799723FA0B85BCC0323DBB6 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.ttf; path = MGTemplateKit/Assets/FontAwesome.ttf; sourceTree = "<group>"; };
-		4A3D42FDB7248C471F2A886CA3E532F0 /* MGTemplateKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGTemplateKit-umbrella.h"; sourceTree = "<group>"; };
+		3949FB67556CF9B6DB8ECC6FC40EEA19 /* MaterialIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = MaterialIcons.ttf; path = MGTemplateKit/Assets/MaterialIcons.ttf; sourceTree = "<group>"; };
+		457CDC2A009BF4A58ACF2A255C24CA53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		46A5E3F069199419201499902A247E38 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4D230AD91C5BA0802A918A1332CED44B /* MGTemplateKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGTemplateKit-umbrella.h"; sourceTree = "<group>"; };
+		4E7E8066E5CF224DE43BCD36B66FF0CB /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.ttf; path = MGTemplateKit/Assets/FontAwesome.ttf; sourceTree = "<group>"; };
 		4EA184D802C8ED6D24736E46A2495450 /* Pods-MGTemplateKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGTemplateKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		503A1CDD0778A57A595CAF97BEDC05DB /* FontAwesomeRegular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesomeRegular.ttf; path = MGTemplateKit/Assets/FontAwesomeRegular.ttf; sourceTree = "<group>"; };
 		504F8080F3F2F3D2A959CB6173852158 /* MGTemplateKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGTemplateKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		5517B2CAC6C909E1FEC5E103A3DFAE6E /* MGTemplateKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MGTemplateKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		557F8F638919DC393766BC548FD75E2E /* UIControl+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIControl+New.swift"; sourceTree = "<group>"; };
 		59DFBEC05B4F799D079BBC90AC0C80AD /* UIColorInputError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorInputError.swift; path = HEXColor/UIColorInputError.swift; sourceTree = "<group>"; };
-		5B7842E5F8265D236B165CCDDFF1C20D /* UIControl+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIControl+New.swift"; sourceTree = "<group>"; };
-		5C7F3D7E84E53E9E056003209754AE1C /* MaterialDesignIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialDesignIcons.swift; path = MGTemplateKit/Classes/MaterialDesignIcons.swift; sourceTree = "<group>"; };
+		5BBC79E62D13200A78235ACBFE1602C7 /* MGTemplate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGTemplate.swift; path = MGTemplateKit/Classes/MGTemplate.swift; sourceTree = "<group>"; };
 		5E710C1E2331BC49D093A76C09012A2B /* Pods-MGTemplateKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGTemplateKit_Example-dummy.m"; sourceTree = "<group>"; };
-		6006C3BF0933BE528F36FF861068451B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "MGTemplateKit/Assets/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		676AE2C90D2E29CE07ADF9D465CB9002 /* MaterialDesignIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialDesignIcons.swift; path = MGTemplateKit/Classes/MaterialDesignIcons.swift; sourceTree = "<group>"; };
 		67B5F24E58F0492EA6DCFA21700FC6AA /* HEXColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HEXColor.h; path = HEXColor/HEXColor.h; sourceTree = "<group>"; };
-		680BD4FA1A2F3778692931C7EC456421 /* MaterialIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = MaterialIcons.ttf; path = MGTemplateKit/Assets/MaterialIcons.ttf; sourceTree = "<group>"; };
+		696751C55F6E2A46D98CB7D842E11D3B /* Roboto-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "MGTemplateKit/Assets/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		6DC2D1B4BD0928467DAB66617E30EDF7 /* UIColor_Hex_Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIColor_Hex_Swift-Info.plist"; sourceTree = "<group>"; };
-		6F5608CD2617666A341FB03FE73DB23B /* MGTemplateKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGTemplateKit-Info.plist"; sourceTree = "<group>"; };
-		707E7689411613DDE3427E2F2E27E40E /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-MediumItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
 		70C7AD3986EB0BE9F263F76E2AD092DB /* UIColor_Hex_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor_Hex_Swift-dummy.m"; sourceTree = "<group>"; };
-		7A98D1D2508D386FC8F10139F5F7ABCB /* ResourceBundle-MGTemplateKit-MGTemplateKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MGTemplateKit-MGTemplateKit-Info.plist"; sourceTree = "<group>"; };
-		7E51C012F44191BBD82A7E84FA4C6A3D /* UIImage+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+New.swift"; sourceTree = "<group>"; };
-		861C28B7BFD11A94935AB487BA9326E2 /* MGTemplateKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGTemplateKit-prefix.pch"; sourceTree = "<group>"; };
-		8BBC1C4B5AE0EAD77EEF52D39D618068 /* VaadinIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VaadinIcons.swift; path = MGTemplateKit/Classes/VaadinIcons.swift; sourceTree = "<group>"; };
+		743932BF82BD2C778D05643F047ACD05 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Ionicons.ttf; path = MGTemplateKit/Assets/Ionicons.ttf; sourceTree = "<group>"; };
+		7A3A2BF616E4F9497809503EB4565125 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = MGTemplateKit/Classes/FontAwesome.swift; sourceTree = "<group>"; };
+		885CC96628E8C5BC867F4D2064D6BA8D /* FontAwesomeBrands.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesomeBrands.ttf; path = MGTemplateKit/Assets/FontAwesomeBrands.ttf; sourceTree = "<group>"; };
+		8CC86AA0ECA1F408DC42A4B00D215954 /* Bundle+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+New.swift"; sourceTree = "<group>"; };
 		965C1EFD9B12039C3BF77FB29F945C6C /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = HEXColor/StringExtension.swift; sourceTree = "<group>"; };
 		99C02956EBAF1278FEB833C5FF652105 /* Pods-MGTemplateKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGTemplateKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		9C370DFC710A508188977C031A2700FE /* UIColor_Hex_Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIColor_Hex_Swift.xcconfig; sourceTree = "<group>"; };
+		9C54DE4E0BE11F37B841C676FFB9044A /* MGTemplateKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGTemplateKit.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FEFB9B35FE958FEA69B00A19607A661 /* MGTemplateKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGTemplateKit.xcconfig; sourceTree = "<group>"; };
-		A01658C3CFA135664EABB3DF674FC409 /* FontAwesomeBrands.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesomeBrands.ttf; path = MGTemplateKit/Assets/FontAwesomeBrands.ttf; sourceTree = "<group>"; };
 		A0E07751802A19734FC386816093E3BC /* Pods-MGTemplateKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGTemplateKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A98717D7223306CE007098F0 /* Bundle+New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+New.swift"; sourceTree = "<group>"; };
-		ADA576D174D5DEB6857F3772602DA5E0 /* DateFormatter+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DateFormatter+New.swift"; sourceTree = "<group>"; };
+		A18E7C16792829108424DE9846F7E332 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "MGTemplateKit/Assets/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		A5055EBD0C203FE3BA053C6C38610A0D /* Data+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data+New.swift"; sourceTree = "<group>"; };
 		AEDFE273FA92C24B6ECBFC0DBDAD0E8F /* Pods-MGTemplateKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGTemplateKit_Example.modulemap"; sourceTree = "<group>"; };
-		AF8228688C6A2B7CE954949EC38E121D /* MGTemplateKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGTemplateKit-dummy.m"; sourceTree = "<group>"; };
-		B945950A9FFC90A10BD0BB087F95DC9F /* Roboto-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Italic.ttf"; path = "MGTemplateKit/Assets/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		B16AD8832830ABCFF85CA84974075FDB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "MGTemplateKit/Assets/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		B5A6E92D44B27F892341B6669CDF186F /* FontAwesomeSolid.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesomeSolid.ttf; path = MGTemplateKit/Assets/FontAwesomeSolid.ttf; sourceTree = "<group>"; };
+		BE5F8931E33E3E9BE441E9AB790871C8 /* UIImage+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+New.swift"; sourceTree = "<group>"; };
 		C168A3FFF0280BACCF213A58E10B813F /* Pods-MGTemplateKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGTemplateKit_Example-Info.plist"; sourceTree = "<group>"; };
+		C4F8CD8F3FA1CAAF5E3530427A24078F /* ResourceBundle-MGTemplateKit-MGTemplateKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MGTemplateKit-MGTemplateKit-Info.plist"; sourceTree = "<group>"; };
 		CC6A33B401E636B8780ACBA693BDEF2F /* Pods_MGTemplateKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGTemplateKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD7F8B21B3B8FED35A5B836490A0D5EC /* UIGestureRecognizer+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIGestureRecognizer+New.swift"; sourceTree = "<group>"; };
+		CCCD189E9E5708927CAD26CFCA642675 /* Ionicons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ionicons.swift; path = MGTemplateKit/Classes/Ionicons.swift; sourceTree = "<group>"; };
 		CDC4A028C0E74C83567095C278636D9B /* UIColor_Hex_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIColor_Hex_Swift.modulemap; sourceTree = "<group>"; };
 		CE0FC50279D78C3AD0222830ABC0F954 /* MGTemplateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGTemplateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE4AF9B61297FAD0F10479C3D4FB7571 /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = MGTemplateKit/Classes/FontLoader.swift; sourceTree = "<group>"; };
+		CFE614A7A0695F22B0C61DF0736FBBDC /* MGTemplateKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGTemplateKit-Info.plist"; sourceTree = "<group>"; };
+		D1180B5E675B46AC71485FF28D41A3BA /* Roboto-Black.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "MGTemplateKit/Assets/Roboto-Black.ttf"; sourceTree = "<group>"; };
 		D1E678A2275D71E01D69F08768AFF05B /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE43C55EFC537B7E60C5B8BF131D80F /* UIColor_Hex_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-umbrella.h"; sourceTree = "<group>"; };
-		DE04B90638D14ED8904AEC94401025C4 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-LightItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		DE9876D6EDBDF56FE52F19C4F0E8B7D1 /* DateFormatter+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DateFormatter+New.swift"; sourceTree = "<group>"; };
+		DF85C4C77A8C2D6604C03511B9DB40E0 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-BoldItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
 		E066ECCCA5476611CF80B5A96FCDB96C /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = HEXColor/UIColorExtension.swift; sourceTree = "<group>"; };
-		E610B03B7BC1D6F4EDB103FCC84EAC5A /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-BlackItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
-		E81D42738F0756336D96DD1D36B87A94 /* SwiftIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIcons.swift; path = MGTemplateKit/Classes/SwiftIcons.swift; sourceTree = "<group>"; };
-		E9FB02233725C30AE33394677C8CED24 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "MGTemplateKit/Assets/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		E6FC1DCE19FDE0BD607E2CDC10767733 /* MGTemplateKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGTemplateKit.xcconfig; sourceTree = "<group>"; };
 		EA6F10F1D438E29FF0156886AE7273C0 /* Pods-MGTemplateKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGTemplateKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EFE3C060A096F191414BCA35FAE6D813 /* String+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+New.swift"; sourceTree = "<group>"; };
+		EC812965C473CF057087A294676738A8 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Italic.ttf"; path = "MGTemplateKit/Assets/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		EFCABDC23D93D15CA032C5C27FB1B064 /* Roboto-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "MGTemplateKit/Assets/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		F33804C112FF6738AC58557D38127A20 /* FontAwesomeRegular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesomeRegular.ttf; path = MGTemplateKit/Assets/FontAwesomeRegular.ttf; sourceTree = "<group>"; };
+		F36F0BDA3CAC6F3B7BAD71FED9E21825 /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = MGTemplateKit/Classes/FontLoader.swift; sourceTree = "<group>"; };
 		F49EAC45260CA90D87DAE554DBA6BC78 /* Pods-MGTemplateKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGTemplateKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F65E1FDC788D68E076EB470BC57360A7 /* Ionicons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ionicons.swift; path = MGTemplateKit/Classes/Ionicons.swift; sourceTree = "<group>"; };
 		F94200CB567419BDED9F624423834CD8 /* UIColor_Hex_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-prefix.pch"; sourceTree = "<group>"; };
-		FF4A92748C46BAED0EE14FD569E053FB /* Data+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data+New.swift"; sourceTree = "<group>"; };
+		FA71CC9CE833DD9A5E2876A5DD034AFB /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-MediumItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FC73B943D2460EB62495B6969CF9CDB9 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-BlackItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0C43A3F1492BD67922BD51FA22043810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76920FA6113FA8B220DA0BEADAAA44C9 /* Foundation.framework in Frameworks */,
+				0D3E479FDEA10FD7122F1CDEFF80066D /* UIColor_Hex_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E273C0D7B0906987F357144DF3C2E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		987343FFC50596CF6AE8CB4C37E4F117 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,34 +185,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B537A75AB84BB2E01B5CD1C0CB2D7A9 /* Frameworks */ = {
+		A2C271C1D36FAE7AD04FEA4AC1D1F495 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B554E259E2BA856548700AD3D86775D8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8BE1F5BC320E5C89EF0AB71D4941642B /* Foundation.framework in Frameworks */,
-				744A740712383E1044EF8079F572F512 /* UIColor_Hex_Swift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BBD09D629F247090407E2F276F2C1C36 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B6772F1DD868DB0D490449796C90875 /* Foundation.framework in Frameworks */,
-				1D49D9BB6A7D8023095B159D1CBC0117 /* UIKit.framework in Frameworks */,
+				48C65F0AF8BB01591E9B60AF83ECFB68 /* Foundation.framework in Frameworks */,
+				4A74D6C62DEF008F5F7EED9ABFBFBBE3 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00AB1F514ED4380B319C9B462AF05CA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C54DE4E0BE11F37B841C676FFB9044A /* MGTemplateKit.modulemap */,
+				E6FC1DCE19FDE0BD607E2CDC10767733 /* MGTemplateKit.xcconfig */,
+				07DBFB044726D63F329403EC66D202DF /* MGTemplateKit-dummy.m */,
+				CFE614A7A0695F22B0C61DF0736FBBDC /* MGTemplateKit-Info.plist */,
+				20329D51C774ABD3A05D20862EAFB24A /* MGTemplateKit-prefix.pch */,
+				4D230AD91C5BA0802A918A1332CED44B /* MGTemplateKit-umbrella.h */,
+				C4F8CD8F3FA1CAAF5E3530427A24078F /* ResourceBundle-MGTemplateKit-MGTemplateKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MGTemplateKit";
+			sourceTree = "<group>";
+		};
 		069C40FB94C0D94B0674508CE2664D45 /* Pods-MGTemplateKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +229,21 @@
 			path = "Target Support Files/Pods-MGTemplateKit_Example";
 			sourceTree = "<group>";
 		};
+		0A34BF4CCC1B0A003445AFD754F35BC5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8CC86AA0ECA1F408DC42A4B00D215954 /* Bundle+New.swift */,
+				A5055EBD0C203FE3BA053C6C38610A0D /* Data+New.swift */,
+				DE9876D6EDBDF56FE52F19C4F0E8B7D1 /* DateFormatter+New.swift */,
+				0F7A2A41E90EAB7B08C3A63B6E37D8F3 /* String+New.swift */,
+				557F8F638919DC393766BC548FD75E2E /* UIControl+New.swift */,
+				0A92A7F1099EB29A983F4A8767B74CA1 /* UIGestureRecognizer+New.swift */,
+				BE5F8931E33E3E9BE441E9AB790871C8 /* UIImage+New.swift */,
+			);
+			name = Extensions;
+			path = MGTemplateKit/Classes/Extensions;
+			sourceTree = "<group>";
+		};
 		43C353EA089216250E55CCC666DD23F9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,21 +258,6 @@
 			path = "../Target Support Files/UIColor_Hex_Swift";
 			sourceTree = "<group>";
 		};
-		525A8139494A846CFDDD78B99E8C8799 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				A98717D7223306CE007098F0 /* Bundle+New.swift */,
-				FF4A92748C46BAED0EE14FD569E053FB /* Data+New.swift */,
-				ADA576D174D5DEB6857F3772602DA5E0 /* DateFormatter+New.swift */,
-				EFE3C060A096F191414BCA35FAE6D813 /* String+New.swift */,
-				5B7842E5F8265D236B165CCDDFF1C20D /* UIControl+New.swift */,
-				CD7F8B21B3B8FED35A5B836490A0D5EC /* UIGestureRecognizer+New.swift */,
-				7E51C012F44191BBD82A7E84FA4C6A3D /* UIImage+New.swift */,
-			);
-			name = Extensions;
-			path = MGTemplateKit/Classes/Extensions;
-			sourceTree = "<group>";
-		};
 		52CAD2482FC9AC89671234F174BA8E80 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,7 +269,7 @@
 		53FFDC879FAA92B3F247A434A314A2E1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B5B639C4DAD5E9BC15941CB980D1882A /* MGTemplateKit */,
+				949DE07127793F533B4AA0595A14FE49 /* MGTemplateKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -314,20 +311,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B5B639C4DAD5E9BC15941CB980D1882A /* MGTemplateKit */ = {
+		949DE07127793F533B4AA0595A14FE49 /* MGTemplateKit */ = {
 			isa = PBXGroup;
 			children = (
-				285A91DDB1CBA5C7F52E40911331CF5E /* FontAwesome.swift */,
-				CE4AF9B61297FAD0F10479C3D4FB7571 /* FontLoader.swift */,
-				F65E1FDC788D68E076EB470BC57360A7 /* Ionicons.swift */,
-				5C7F3D7E84E53E9E056003209754AE1C /* MaterialDesignIcons.swift */,
-				39FA8919F8D9306722B86A1388CC8EC7 /* MGTemplate.swift */,
-				E81D42738F0756336D96DD1D36B87A94 /* SwiftIcons.swift */,
-				8BBC1C4B5AE0EAD77EEF52D39D618068 /* VaadinIcons.swift */,
-				525A8139494A846CFDDD78B99E8C8799 /* Extensions */,
-				FCEF329E7BA669D83B77C0484C699CBC /* Pod */,
-				F9D8215FED1FDE6C5D55E915B3DF8EA2 /* Resources */,
-				C82E6DDE62E6002EC3FF02194DEDC8AC /* Support Files */,
+				5BBC79E62D13200A78235ACBFE1602C7 /* MGTemplate.swift */,
+				7A3A2BF616E4F9497809503EB4565125 /* FontAwesome.swift */,
+				F36F0BDA3CAC6F3B7BAD71FED9E21825 /* FontLoader.swift */,
+				CCCD189E9E5708927CAD26CFCA642675 /* Ionicons.swift */,
+				676AE2C90D2E29CE07ADF9D465CB9002 /* MaterialDesignIcons.swift */,
+				241844C61FCB86545D2DA13F3909734F /* SwiftIcons.swift */,
+				2F0275F95C35C20736DAAD51201AA529 /* VaadinIcons.swift */,
+				0A34BF4CCC1B0A003445AFD754F35BC5 /* Extensions */,
+				D3FC7A5CE2D5EF7F66903FB5525B305A /* Pod */,
+				DDD1F5F9549C62DEB345966D715BA3F8 /* Resources */,
+				00AB1F514ED4380B319C9B462AF05CA8 /* Support Files */,
 			);
 			name = MGTemplateKit;
 			path = ../..;
@@ -345,21 +342,6 @@
 			path = UIColor_Hex_Swift;
 			sourceTree = "<group>";
 		};
-		C82E6DDE62E6002EC3FF02194DEDC8AC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1683FDADFEC0AB396214D064EC2D13E8 /* MGTemplateKit.modulemap */,
-				9FEFB9B35FE958FEA69B00A19607A661 /* MGTemplateKit.xcconfig */,
-				AF8228688C6A2B7CE954949EC38E121D /* MGTemplateKit-dummy.m */,
-				6F5608CD2617666A341FB03FE73DB23B /* MGTemplateKit-Info.plist */,
-				861C28B7BFD11A94935AB487BA9326E2 /* MGTemplateKit-prefix.pch */,
-				4A3D42FDB7248C471F2A886CA3E532F0 /* MGTemplateKit-umbrella.h */,
-				7A98D1D2508D386FC8F10139F5F7ABCB /* ResourceBundle-MGTemplateKit-MGTemplateKit-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MGTemplateKit";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -372,58 +354,58 @@
 			);
 			sourceTree = "<group>";
 		};
-		F9D8215FED1FDE6C5D55E915B3DF8EA2 /* Resources */ = {
+		D3FC7A5CE2D5EF7F66903FB5525B305A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				44FB5CC95799723FA0B85BCC0323DBB6 /* FontAwesome.ttf */,
-				A01658C3CFA135664EABB3DF674FC409 /* FontAwesomeBrands.ttf */,
-				503A1CDD0778A57A595CAF97BEDC05DB /* FontAwesomeRegular.ttf */,
-				09645AFEC5D731B63464BE2E8CE724E2 /* FontAwesomeSolid.ttf */,
-				4031EF1C2E291F187F1AD5D66CF153C7 /* Ionicons.ttf */,
-				680BD4FA1A2F3778692931C7EC456421 /* MaterialIcons.ttf */,
-				3C13FCEE26AB0DAE3DC64A259507DAA7 /* Roboto-Black.ttf */,
-				E610B03B7BC1D6F4EDB103FCC84EAC5A /* Roboto-BlackItalic.ttf */,
-				E9FB02233725C30AE33394677C8CED24 /* Roboto-Bold.ttf */,
-				09D4B9A21407092C664692263A52C9C1 /* Roboto-BoldItalic.ttf */,
-				B945950A9FFC90A10BD0BB087F95DC9F /* Roboto-Italic.ttf */,
-				00AC819850F0EFE75F63CD3D8AD4747A /* Roboto-Light.ttf */,
-				DE04B90638D14ED8904AEC94401025C4 /* Roboto-LightItalic.ttf */,
-				6006C3BF0933BE528F36FF861068451B /* Roboto-Medium.ttf */,
-				707E7689411613DDE3427E2F2E27E40E /* Roboto-MediumItalic.ttf */,
-				31119EFD5146076FD54362AA38D76EE5 /* Roboto-Regular.ttf */,
-				35F710BDB2ABD0933F48AFD3850B3C12 /* Roboto-Thin.ttf */,
-				1586DF4B4F0D30C7DE4FFEA0FB80947D /* Roboto-ThinItalic.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		FCEF329E7BA669D83B77C0484C699CBC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				44D7FA864110D9379873DF8E71A320E1 /* LICENSE */,
-				5517B2CAC6C909E1FEC5E103A3DFAE6E /* MGTemplateKit.podspec */,
-				1CC5B315B1BBC05C87373800281DBBE0 /* README.md */,
+				457CDC2A009BF4A58ACF2A255C24CA53 /* LICENSE */,
+				2F49DAA04331864A0946052F9E96CDF7 /* MGTemplateKit.podspec */,
+				46A5E3F069199419201499902A247E38 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		DDD1F5F9549C62DEB345966D715BA3F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E7E8066E5CF224DE43BCD36B66FF0CB /* FontAwesome.ttf */,
+				885CC96628E8C5BC867F4D2064D6BA8D /* FontAwesomeBrands.ttf */,
+				F33804C112FF6738AC58557D38127A20 /* FontAwesomeRegular.ttf */,
+				B5A6E92D44B27F892341B6669CDF186F /* FontAwesomeSolid.ttf */,
+				743932BF82BD2C778D05643F047ACD05 /* Ionicons.ttf */,
+				3949FB67556CF9B6DB8ECC6FC40EEA19 /* MaterialIcons.ttf */,
+				D1180B5E675B46AC71485FF28D41A3BA /* Roboto-Black.ttf */,
+				FC73B943D2460EB62495B6969CF9CDB9 /* Roboto-BlackItalic.ttf */,
+				A18E7C16792829108424DE9846F7E332 /* Roboto-Bold.ttf */,
+				DF85C4C77A8C2D6604C03511B9DB40E0 /* Roboto-BoldItalic.ttf */,
+				EC812965C473CF057087A294676738A8 /* Roboto-Italic.ttf */,
+				EFCABDC23D93D15CA032C5C27FB1B064 /* Roboto-Light.ttf */,
+				2544C755159E0E440BA36E86C782D95E /* Roboto-LightItalic.ttf */,
+				2E4B614A959B2F6D0D43C835D70C63DF /* Roboto-Medium.ttf */,
+				FA71CC9CE833DD9A5E2876A5DD034AFB /* Roboto-MediumItalic.ttf */,
+				B16AD8832830ABCFF85CA84974075FDB /* Roboto-Regular.ttf */,
+				696751C55F6E2A46D98CB7D842E11D3B /* Roboto-Thin.ttf */,
+				196F9EF0921FB8C6B2A43407DEBCA7F9 /* Roboto-ThinItalic.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		28F6FDC63CE3F2B59520230D471CCDE4 /* Headers */ = {
+		2BD15D701523FE3C0A429CDD3A07E315 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DA473C522AADC21A7CF9B9671BF25AA /* MGTemplateKit-umbrella.h in Headers */,
+				78AADDD5B9CE4CA881973F038953A732 /* HEXColor.h in Headers */,
+				00A0FF291005CDF241C4D5EEEA135DD6 /* UIColor_Hex_Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		416470F6D3AB6533FC6D4D7018996D2E /* Headers */ = {
+		55ECD9FDF01F8A57718D7B3B25F1DD9D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C29C0DB47DEBB1474F4E4306277FE27F /* HEXColor.h in Headers */,
-				40EA6E520321AC0F3F7BD63B07BE509E /* UIColor_Hex_Swift-umbrella.h in Headers */,
+				86AA951EFF1D7582B460B0E57F157FF3 /* MGTemplateKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,23 +420,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		138303166167167284C7ADBF0820D0EF /* MGTemplateKit-MGTemplateKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8D6341826C6C80CAF4543639E9172D84 /* Build configuration list for PBXNativeTarget "MGTemplateKit-MGTemplateKit" */;
-			buildPhases = (
-				0BA6DC278D1431BFF685BE6AB795F638 /* Sources */,
-				9B537A75AB84BB2E01B5CD1C0CB2D7A9 /* Frameworks */,
-				DA40676C9A4EF82626E8D1CF7FEA5A98 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MGTemplateKit-MGTemplateKit";
-			productName = "MGTemplateKit-MGTemplateKit";
-			productReference = 504F8080F3F2F3D2A959CB6173852158 /* MGTemplateKit.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		5170FF5E98679F8B3731DDE1DCEF3C19 /* Pods-MGTemplateKit_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C6331CB584EE6A61F73C782578D1DA2 /* Build configuration list for PBXNativeTarget "Pods-MGTemplateKit_Example" */;
@@ -475,34 +440,34 @@
 			productReference = CC6A33B401E636B8780ACBA693BDEF2F /* Pods_MGTemplateKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5A4829DA7B8D386CD706F4B5C6B7A2A6 /* MGTemplateKit */ = {
+		5FBE82A733D2037E24E57272D0FD4AD0 /* MGTemplateKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 822232F510627898A942B3A44BEDF6A7 /* Build configuration list for PBXNativeTarget "MGTemplateKit" */;
+			buildConfigurationList = DC5797EB410D2BCD8C37924D79A3B092 /* Build configuration list for PBXNativeTarget "MGTemplateKit" */;
 			buildPhases = (
-				28F6FDC63CE3F2B59520230D471CCDE4 /* Headers */,
-				2FDB87D8FD7CA4857A264C6154D26C7C /* Sources */,
-				B554E259E2BA856548700AD3D86775D8 /* Frameworks */,
-				2C8CA797AABF7698BCE6DEAB06BB1100 /* Resources */,
+				55ECD9FDF01F8A57718D7B3B25F1DD9D /* Headers */,
+				EBA66B9695B879F7F663B6EC499CB8B9 /* Sources */,
+				0C43A3F1492BD67922BD51FA22043810 /* Frameworks */,
+				52ED0F39DDDA5C3B530AF05824059200 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CFA245C16977446FC3CDC1463C20C14B /* PBXTargetDependency */,
-				D9B87BB312792DAD46B21CE14AC695FE /* PBXTargetDependency */,
+				B954B176FB8C935B722C7C8CD66C80E0 /* PBXTargetDependency */,
+				4748A59802CEFD7011438881E7BED51F /* PBXTargetDependency */,
 			);
 			name = MGTemplateKit;
 			productName = MGTemplateKit;
 			productReference = CE0FC50279D78C3AD0222830ABC0F954 /* MGTemplateKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FC0F19847CD8686894029E84E305E2EE /* UIColor_Hex_Swift */ = {
+		79E070F6F2701EBB70B904671D1D79BF /* UIColor_Hex_Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E6E231FFEC702D8231415AF87ECE098 /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */;
+			buildConfigurationList = 4A31E7D0DD612C9D7273B7E7E54EC10B /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */;
 			buildPhases = (
-				416470F6D3AB6533FC6D4D7018996D2E /* Headers */,
-				3DC5C0D4A8A335DBC8A1C4141C714980 /* Sources */,
-				BBD09D629F247090407E2F276F2C1C36 /* Frameworks */,
-				21FE0E895034F9D018B6CD4A98140F16 /* Resources */,
+				2BD15D701523FE3C0A429CDD3A07E315 /* Headers */,
+				999D6106648C387C5FB9A3DD76C2AE9B /* Sources */,
+				A2C271C1D36FAE7AD04FEA4AC1D1F495 /* Frameworks */,
+				1E1F5582019DCD35D79FFDDDFB4DFE15 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -512,6 +477,23 @@
 			productName = UIColor_Hex_Swift;
 			productReference = 35D0D2777DE383BB3152D948AAD3A5BD /* UIColor_Hex_Swift.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		79E57B31EDD69055608261D7E6BB981E /* MGTemplateKit-MGTemplateKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7A8B759083F2665F39A61C69D9BED3 /* Build configuration list for PBXNativeTarget "MGTemplateKit-MGTemplateKit" */;
+			buildPhases = (
+				EEEB644E0648D5D0231454E1F8211993 /* Sources */,
+				0E273C0D7B0906987F357144DF3C2E27 /* Frameworks */,
+				9961130AD196F14C9E0FCE05FD79D72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MGTemplateKit-MGTemplateKit";
+			productName = "MGTemplateKit-MGTemplateKit";
+			productReference = 504F8080F3F2F3D2A959CB6173852158 /* MGTemplateKit.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -534,45 +516,27 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A4829DA7B8D386CD706F4B5C6B7A2A6 /* MGTemplateKit */,
-				138303166167167284C7ADBF0820D0EF /* MGTemplateKit-MGTemplateKit */,
+				5FBE82A733D2037E24E57272D0FD4AD0 /* MGTemplateKit */,
+				79E57B31EDD69055608261D7E6BB981E /* MGTemplateKit-MGTemplateKit */,
 				5170FF5E98679F8B3731DDE1DCEF3C19 /* Pods-MGTemplateKit_Example */,
-				FC0F19847CD8686894029E84E305E2EE /* UIColor_Hex_Swift */,
+				79E070F6F2701EBB70B904671D1D79BF /* UIColor_Hex_Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		21FE0E895034F9D018B6CD4A98140F16 /* Resources */ = {
+		1E1F5582019DCD35D79FFDDDFB4DFE15 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C8CA797AABF7698BCE6DEAB06BB1100 /* Resources */ = {
+		52ED0F39DDDA5C3B530AF05824059200 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A98717DB223309F9007098F0 /* FontAwesomeRegular.ttf in Resources */,
-				A98717E3223309F9007098F0 /* Roboto-Italic.ttf in Resources */,
-				A98717E5223309F9007098F0 /* Roboto-LightItalic.ttf in Resources */,
-				A98717E2223309F9007098F0 /* Roboto-BoldItalic.ttf in Resources */,
-				CAE624ECC97C1C1ED024B1B4EF3AA20A /* MGTemplateKit.bundle in Resources */,
-				A98717E6223309F9007098F0 /* Roboto-Medium.ttf in Resources */,
-				A98717E1223309F9007098F0 /* Roboto-Bold.ttf in Resources */,
-				A98717DD223309F9007098F0 /* Ionicons.ttf in Resources */,
-				A98717E9223309F9007098F0 /* Roboto-Thin.ttf in Resources */,
-				A98717DF223309F9007098F0 /* Roboto-Black.ttf in Resources */,
-				A98717E0223309F9007098F0 /* Roboto-BlackItalic.ttf in Resources */,
-				A98717DA223309F9007098F0 /* FontAwesomeBrands.ttf in Resources */,
-				A98717E4223309F9007098F0 /* Roboto-Light.ttf in Resources */,
-				A98717E7223309F9007098F0 /* Roboto-MediumItalic.ttf in Resources */,
-				A98717DC223309F9007098F0 /* FontAwesomeSolid.ttf in Resources */,
-				A98717E8223309F9007098F0 /* Roboto-Regular.ttf in Resources */,
-				A98717EA223309F9007098F0 /* Roboto-ThinItalic.ttf in Resources */,
-				A98717D9223309F9007098F0 /* FontAwesome.ttf in Resources */,
-				A98717DE223309F9007098F0 /* MaterialIcons.ttf in Resources */,
+				3C605C2C0DE78E447404B61A9D046DE9 /* MGTemplateKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,41 +547,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA40676C9A4EF82626E8D1CF7FEA5A98 /* Resources */ = {
+		9961130AD196F14C9E0FCE05FD79D72E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3230274CCD930DCC064BF4FA347731EC /* FontAwesome.ttf in Resources */,
-				52620A5B5A90D8653B716641D19D7F2F /* FontAwesomeBrands.ttf in Resources */,
-				F63ED40B28C9E8BDD24049BA1ADD1962 /* FontAwesomeRegular.ttf in Resources */,
-				C517484E306C26E21EC81ED91CAE7D93 /* FontAwesomeSolid.ttf in Resources */,
-				931CDDC89D1912962A0AE52EE3D48326 /* Ionicons.ttf in Resources */,
-				4963DD0F680069BD659D9CF57333A2F2 /* MaterialIcons.ttf in Resources */,
-				B06EEEA5D108AB2736B2D59173E096AB /* Roboto-Black.ttf in Resources */,
-				720FB91926D3E7B9D2C2FC08EB28DE94 /* Roboto-BlackItalic.ttf in Resources */,
-				0ADE6A04F4708B96E2890D7B39A3E5ED /* Roboto-Bold.ttf in Resources */,
-				49BA5183019ABD51D44FB7325FCF0F4C /* Roboto-BoldItalic.ttf in Resources */,
-				6BCF0416C7C66E98FB4D7D12E4328E5B /* Roboto-Italic.ttf in Resources */,
-				27FEC02485E0376257C85548187502E1 /* Roboto-Light.ttf in Resources */,
-				2758E3A7CDE6A34F7946D61362F62319 /* Roboto-LightItalic.ttf in Resources */,
-				55C917D78E871FA7EA1D4059B36E9E8E /* Roboto-Medium.ttf in Resources */,
-				74C38C6D45E47D1F92522D2127FB3DAB /* Roboto-MediumItalic.ttf in Resources */,
-				614330432CABC6498888B96186C6611F /* Roboto-Regular.ttf in Resources */,
-				6C58F42E61F53FFA9667AF753D5399BB /* Roboto-Thin.ttf in Resources */,
-				88EF1D5ECCDDF589A24B3FD9E33D8A2E /* Roboto-ThinItalic.ttf in Resources */,
+				6F83187F20C2EAAFB848C2005DC0A58B /* FontAwesome.ttf in Resources */,
+				1694AA1A1B09FEACFA45A6BC6598B441 /* FontAwesomeBrands.ttf in Resources */,
+				58CC84AF2D8648C6630A021BD97DDE5F /* FontAwesomeRegular.ttf in Resources */,
+				88DDD99A44F5039AD0B5B3DF028FF7C5 /* FontAwesomeSolid.ttf in Resources */,
+				78DA70A26C2E19485807321FC99B6252 /* Ionicons.ttf in Resources */,
+				1B7BC9C257E1EA471F36DF41B7F2AF53 /* MaterialIcons.ttf in Resources */,
+				9EC66487059F383866F37A7CFC019734 /* Roboto-Black.ttf in Resources */,
+				FEC1667B31066955073A46D8BB6DDAEE /* Roboto-BlackItalic.ttf in Resources */,
+				E5CD7F2A04AAD2F707DE88C4A7B1F773 /* Roboto-Bold.ttf in Resources */,
+				4D1CA315C398A86F5AE4DF3F062FEE08 /* Roboto-BoldItalic.ttf in Resources */,
+				D05B8198FA6C227C50B4D2E7D074A807 /* Roboto-Italic.ttf in Resources */,
+				2998D5E2FF3C2B5F3A6B6673FD31D761 /* Roboto-Light.ttf in Resources */,
+				0C5207E2FC208C27CB5AB20BDADB0CD7 /* Roboto-LightItalic.ttf in Resources */,
+				69A252AD14742379E66ABF0FB9531AEF /* Roboto-Medium.ttf in Resources */,
+				CFF122C54211DF24B3C251BB4DCFE8FE /* Roboto-MediumItalic.ttf in Resources */,
+				4EE4AC68D26FE9BA14213802B080DBE1 /* Roboto-Regular.ttf in Resources */,
+				26E44E0AADA3146853A90C2899564327 /* Roboto-Thin.ttf in Resources */,
+				3FF956094FF31D01B21699BEA94B0B57 /* Roboto-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0BA6DC278D1431BFF685BE6AB795F638 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2ADA39DBB5CA9AC3274173D94E3E7DBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -626,64 +583,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FDB87D8FD7CA4857A264C6154D26C7C /* Sources */ = {
+		999D6106648C387C5FB9A3DD76C2AE9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF81CABA0F986FB8951DFC7455709259 /* Data+New.swift in Sources */,
-				43E278F02A48B2D3E538DD916ADA97E0 /* DateFormatter+New.swift in Sources */,
-				9AC5C481950566A913F1B1B9386B7DF3 /* FontAwesome.swift in Sources */,
-				CEB28CE078FCA4339490A022E14D025E /* FontLoader.swift in Sources */,
-				A98717D8223306CE007098F0 /* Bundle+New.swift in Sources */,
-				2842186C7251ADD720A4CFA61E2D91D9 /* Ionicons.swift in Sources */,
-				7C9E21F1B4CD17D12A90AC020FE41E0A /* MaterialDesignIcons.swift in Sources */,
-				F0B266F6A4AD408C2DD8DABE36344721 /* MGTemplate.swift in Sources */,
-				4DC70CFC077BE50C260B65ADFFB0DC92 /* MGTemplateKit-dummy.m in Sources */,
-				B2463907AD7FA7C946C4A8E4A03EDA5B /* String+New.swift in Sources */,
-				3DEB36B0E4EBCCB53864A56AC8FF4B2E /* SwiftIcons.swift in Sources */,
-				DDCAFD79F8C198C93D807167BFCB4632 /* UIControl+New.swift in Sources */,
-				CD3244C4835A717857F5F4955CA92C2A /* UIGestureRecognizer+New.swift in Sources */,
-				CF0DEC33B85B3C240C442B8B30CE30DB /* UIImage+New.swift in Sources */,
-				85EA24175A6AE24B0E8EB28BAC75F1A5 /* VaadinIcons.swift in Sources */,
+				264F75429AD0AF9169ADAB0C52FCF1D4 /* StringExtension.swift in Sources */,
+				F635E53BD3379252898888ACE4480F1B /* UIColor_Hex_Swift-dummy.m in Sources */,
+				EC4F9FBA59A2D17AEF3E3A2C48AEE516 /* UIColorExtension.swift in Sources */,
+				85E6C533EB07EBE06D658B188D0A6EFC /* UIColorInputError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DC5C0D4A8A335DBC8A1C4141C714980 /* Sources */ = {
+		EBA66B9695B879F7F663B6EC499CB8B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF3EA7D3CD54596CA0734ACE63CACC74 /* StringExtension.swift in Sources */,
-				6A33B272A4DD5661D19FEB751CFDE503 /* UIColor_Hex_Swift-dummy.m in Sources */,
-				3CC5E74645EF35217B2A8998D30ECB7B /* UIColorExtension.swift in Sources */,
-				E735A16816EC38EAAC3A3D517293218A /* UIColorInputError.swift in Sources */,
+				59588824EEAFBCE0ECAD6EAC07A09AE2 /* Bundle+New.swift in Sources */,
+				924B8DFECD1E60DF3314ED2C916B2C12 /* Data+New.swift in Sources */,
+				05952752D27261631CA91072AE03C624 /* DateFormatter+New.swift in Sources */,
+				64C587CE43B1809847053EA6C465274E /* FontAwesome.swift in Sources */,
+				75A6D02E06D8F5D9896E0DDB99EA1B2B /* FontLoader.swift in Sources */,
+				E59544278A30D9F66D7A0D78927B0E55 /* Ionicons.swift in Sources */,
+				1262B0778FAA80075DDCEDE9EC88D3C3 /* MaterialDesignIcons.swift in Sources */,
+				4DA501C7095A1666EE8AFA8C45E3A038 /* MGTemplate.swift in Sources */,
+				A508698550BB9079E229377A80E7A01F /* MGTemplateKit-dummy.m in Sources */,
+				D47076FE997F79F531DB474554F65809 /* String+New.swift in Sources */,
+				48972E895E84E9EC779FE20D4448EBFC /* SwiftIcons.swift in Sources */,
+				B1D276AAD7688AB952B52EE2E6864CBE /* UIControl+New.swift in Sources */,
+				1815D5BBB56FDFF20D766AAB01A48F4B /* UIGestureRecognizer+New.swift in Sources */,
+				5D0E23EEC553A9E4E88AB2D4424EA093 /* UIImage+New.swift in Sources */,
+				CAB95B64B3A3236D4CD8A05A15C42686 /* VaadinIcons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEB644E0648D5D0231454E1F8211993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4748A59802CEFD7011438881E7BED51F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIColor_Hex_Swift;
+			target = 79E070F6F2701EBB70B904671D1D79BF /* UIColor_Hex_Swift */;
+			targetProxy = 6A466688C2B63DB456E4DBC9D998FCA2 /* PBXContainerItemProxy */;
+		};
 		9256E73FB42AEE5F968A5E35BA7B7D40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MGTemplateKit;
-			target = 5A4829DA7B8D386CD706F4B5C6B7A2A6 /* MGTemplateKit */;
+			target = 5FBE82A733D2037E24E57272D0FD4AD0 /* MGTemplateKit */;
 			targetProxy = DAE4600300A26F5088D43799BBA1F86C /* PBXContainerItemProxy */;
 		};
-		CFA245C16977446FC3CDC1463C20C14B /* PBXTargetDependency */ = {
+		B954B176FB8C935B722C7C8CD66C80E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "MGTemplateKit-MGTemplateKit";
-			target = 138303166167167284C7ADBF0820D0EF /* MGTemplateKit-MGTemplateKit */;
-			targetProxy = D6D076ABA0EA88E5F79ED7E181F9E4D6 /* PBXContainerItemProxy */;
-		};
-		D9B87BB312792DAD46B21CE14AC695FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UIColor_Hex_Swift;
-			target = FC0F19847CD8686894029E84E305E2EE /* UIColor_Hex_Swift */;
-			targetProxy = 8FD1C4A6DC148E2D5772B880BD17DBCB /* PBXContainerItemProxy */;
+			target = 79E57B31EDD69055608261D7E6BB981E /* MGTemplateKit-MGTemplateKit */;
+			targetProxy = 5B06848D683D399839B7943000128C89 /* PBXContainerItemProxy */;
 		};
 		E0E7BD54DABE19FB3151A10669B2BB13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UIColor_Hex_Swift;
-			target = FC0F19847CD8686894029E84E305E2EE /* UIColor_Hex_Swift */;
+			target = 79E070F6F2701EBB70B904671D1D79BF /* UIColor_Hex_Swift */;
 			targetProxy = 2B5B2B024199D2FF6A66FD089F2E11F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -760,9 +724,9 @@
 			};
 			name = Debug;
 		};
-		12380FE1948CE9CC5808E4FAF0F9373A /* Release */ = {
+		3955149B34085B9D1B7E0BFB6ADCF693 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FEFB9B35FE958FEA69B00A19607A661 /* MGTemplateKit.xcconfig */;
+			baseConfigurationReference = E6FC1DCE19FDE0BD607E2CDC10767733 /* MGTemplateKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MGTemplateKit";
@@ -775,38 +739,6 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
-		};
-		17E48EF63CA4C7A8DC6AED71F716F062 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C370DFC710A508188977C031A2700FE /* UIColor_Hex_Swift.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
-				PRODUCT_MODULE_NAME = UIColor_Hex_Swift;
-				PRODUCT_NAME = UIColor_Hex_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -866,6 +798,55 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		55D64466D9D0D26E92D82C5DB1071609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C370DFC710A508188977C031A2700FE /* UIColor_Hex_Swift.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
+				PRODUCT_MODULE_NAME = UIColor_Hex_Swift;
+				PRODUCT_NAME = UIColor_Hex_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BDEA81889193CFADBC80020E2A07A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6FC1DCE19FDE0BD607E2CDC10767733 /* MGTemplateKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MGTemplateKit";
+				INFOPLIST_FILE = "Target Support Files/MGTemplateKit/ResourceBundle-MGTemplateKit-MGTemplateKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = MGTemplateKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -931,7 +912,74 @@
 			};
 			name = Debug;
 		};
-		76DC0B3081582F7FE5C7F5A5D73B77DD /* Release */ = {
+		E43A89D21D7625E22D483D81EF235E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6FC1DCE19FDE0BD607E2CDC10767733 /* MGTemplateKit.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGTemplateKit/MGTemplateKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGTemplateKit/MGTemplateKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGTemplateKit/MGTemplateKit.modulemap";
+				PRODUCT_MODULE_NAME = MGTemplateKit;
+				PRODUCT_NAME = MGTemplateKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6B278B39F9C4E92EA30DB4F35FF72A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6FC1DCE19FDE0BD607E2CDC10767733 /* MGTemplateKit.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGTemplateKit/MGTemplateKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGTemplateKit/MGTemplateKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGTemplateKit/MGTemplateKit.modulemap";
+				PRODUCT_MODULE_NAME = MGTemplateKit;
+				PRODUCT_NAME = MGTemplateKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA59B1263F69C852BC2634E6E7CC6256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C370DFC710A508188977C031A2700FE /* UIColor_Hex_Swift.xcconfig */;
 			buildSettings = {
@@ -958,90 +1006,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8C96B4848E13E968E4B1901DDD0793E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FEFB9B35FE958FEA69B00A19607A661 /* MGTemplateKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MGTemplateKit";
-				INFOPLIST_FILE = "Target Support Files/MGTemplateKit/ResourceBundle-MGTemplateKit-MGTemplateKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = MGTemplateKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		A9A96CA5BBF09906695D18785563B544 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FEFB9B35FE958FEA69B00A19607A661 /* MGTemplateKit.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MGTemplateKit/MGTemplateKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MGTemplateKit/MGTemplateKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MGTemplateKit/MGTemplateKit.modulemap";
-				PRODUCT_MODULE_NAME = MGTemplateKit;
-				PRODUCT_NAME = MGTemplateKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B13D7CB7DEF175FFA29BE1E226C14E48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FEFB9B35FE958FEA69B00A19607A661 /* MGTemplateKit.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MGTemplateKit/MGTemplateKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MGTemplateKit/MGTemplateKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MGTemplateKit/MGTemplateKit.modulemap";
-				PRODUCT_MODULE_NAME = MGTemplateKit;
-				PRODUCT_NAME = MGTemplateKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1059,6 +1023,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4A31E7D0DD612C9D7273B7E7E54EC10B /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA59B1263F69C852BC2634E6E7CC6256 /* Debug */,
+				55D64466D9D0D26E92D82C5DB1071609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4C6331CB584EE6A61F73C782578D1DA2 /* Build configuration list for PBXNativeTarget "Pods-MGTemplateKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1068,29 +1041,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E6E231FFEC702D8231415AF87ECE098 /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */ = {
+		DC5797EB410D2BCD8C37924D79A3B092 /* Build configuration list for PBXNativeTarget "MGTemplateKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17E48EF63CA4C7A8DC6AED71F716F062 /* Debug */,
-				76DC0B3081582F7FE5C7F5A5D73B77DD /* Release */,
+				E6B278B39F9C4E92EA30DB4F35FF72A6 /* Debug */,
+				E43A89D21D7625E22D483D81EF235E73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		822232F510627898A942B3A44BEDF6A7 /* Build configuration list for PBXNativeTarget "MGTemplateKit" */ = {
+		FC7A8B759083F2665F39A61C69D9BED3 /* Build configuration list for PBXNativeTarget "MGTemplateKit-MGTemplateKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B13D7CB7DEF175FFA29BE1E226C14E48 /* Debug */,
-				A9A96CA5BBF09906695D18785563B544 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8D6341826C6C80CAF4543639E9172D84 /* Build configuration list for PBXNativeTarget "MGTemplateKit-MGTemplateKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8C96B4848E13E968E4B1901DDD0793E2 /* Debug */,
-				12380FE1948CE9CC5808E4FAF0F9373A /* Release */,
+				6BDEA81889193CFADBC80020E2A07A5B /* Debug */,
+				3955149B34085B9D1B7E0BFB6ADCF693 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
