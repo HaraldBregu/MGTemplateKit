@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Harald Bregu' => 'harald.bregu@gmail.com' }
   s.source           = { :git => 'https://haraldbregu@bitbucket.org/haraldbregu/mgtemplatekit.git', :tag => s.version.to_s }
   s.source_files = "MGTemplateKit/Classes/**/*"
-  s.resource_bundles = { 'MGTemplate' => ['MGTemplateKit/Assets/Fonts/**/*.ttf'] }
+  s.resource_bundles = { 'MGTemplate' => ['MGTemplateKit/Assets/*.ttf'] }
   s.swift_version = "4.2"
   s.ios.deployment_target = "11.0"
 end
