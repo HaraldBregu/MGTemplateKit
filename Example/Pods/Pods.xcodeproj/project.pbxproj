@@ -9,6 +9,36 @@
 /* Begin PBXBuildFile section */
 		4F76A0A073E51CC913DA764A3010FD63 /* Pods-MGTemplateKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0FCBC4F7B29A831CC2FC7EE659B35A /* Pods-MGTemplateKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E38B429B71F80716DBB9D58E4BE4B06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A94C8D882232A54B00A1E788 /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94C8D872232A54B00A1E788 /* FontLoader.swift */; };
+		A94C8D8A2232B0EB00A1E788 /* SwiftIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94C8D892232B0EB00A1E788 /* SwiftIcons.swift */; };
+		A94C8DC92232B3D000A1E788 /* FontAwesomeSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DB52232B3D000A1E788 /* FontAwesomeSolid.ttf */; };
+		A94C8DCA2232B3D000A1E788 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DB62232B3D000A1E788 /* FontAwesome.ttf */; };
+		A94C8DCB2232B3D000A1E788 /* FontAwesomeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DB72232B3D000A1E788 /* FontAwesomeRegular.ttf */; };
+		A94C8DCC2232B3D000A1E788 /* FontAwesomeBrands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DB82232B3D000A1E788 /* FontAwesomeBrands.ttf */; };
+		A94C8DCD2232B3D000A1E788 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DB92232B3D000A1E788 /* MaterialIcons.ttf */; };
+		A94C8DCE2232B3D000A1E788 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DBB2232B3D000A1E788 /* Ionicons.ttf */; };
+		A94C8DCF2232B3D000A1E788 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DBD2232B3D000A1E788 /* Roboto-Medium.ttf */; };
+		A94C8DD02232B3D000A1E788 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DBE2232B3D000A1E788 /* Roboto-Light.ttf */; };
+		A94C8DD12232B3D000A1E788 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DBF2232B3D000A1E788 /* Roboto-Regular.ttf */; };
+		A94C8DD22232B3D000A1E788 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DC02232B3D000A1E788 /* Roboto-MediumItalic.ttf */; };
+		A94C8DD32232B3D000A1E788 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DC12232B3D000A1E788 /* Roboto-ThinItalic.ttf */; };
+		A94C8DD42232B3D000A1E788 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DC22232B3D000A1E788 /* Roboto-BoldItalic.ttf */; };
+		A94C8DD52232B3D000A1E788 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DC32232B3D000A1E788 /* Roboto-LightItalic.ttf */; };
+		A94C8DD62232B3D000A1E788 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DC42232B3D000A1E788 /* Roboto-Italic.ttf */; };
+		A94C8DD72232B3D000A1E788 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DC52232B3D000A1E788 /* Roboto-BlackItalic.ttf */; };
+		A94C8DD82232B3D000A1E788 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DC62232B3D000A1E788 /* Roboto-Bold.ttf */; };
+		A94C8DD92232B3D000A1E788 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DC72232B3D000A1E788 /* Roboto-Thin.ttf */; };
+		A94C8DDA2232B3D000A1E788 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94C8DC82232B3D000A1E788 /* Roboto-Black.ttf */; };
+		A94C8DDC2232B68000A1E788 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94C8DDB2232B68000A1E788 /* FontAwesome.swift */; };
+		A94C8DDE2232B6AC00A1E788 /* Ionicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94C8DDD2232B6AC00A1E788 /* Ionicons.swift */; };
+		A94C8DE02232B6CC00A1E788 /* MaterialDesignIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94C8DDF2232B6CC00A1E788 /* MaterialDesignIcons.swift */; };
+		A94C8DE82232B77A00A1E788 /* Data+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94C8DE52232B77A00A1E788 /* Data+New.swift */; };
+		A94C8DE92232B77A00A1E788 /* String+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94C8DE62232B77A00A1E788 /* String+New.swift */; };
+		A94C8DEA2232B77A00A1E788 /* DateFormatter+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94C8DE72232B77A00A1E788 /* DateFormatter+New.swift */; };
+		A94C8DEC2232B7C500A1E788 /* UIControl+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94C8DEB2232B7C500A1E788 /* UIControl+New.swift */; };
+		A94C8DEE2232B7E000A1E788 /* UIGestureRecognizer+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94C8DED2232B7E000A1E788 /* UIGestureRecognizer+New.swift */; };
+		A94C8DF02232B7FC00A1E788 /* UIImage+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94C8DEF2232B7FC00A1E788 /* UIImage+New.swift */; };
+		A94C8DF22232B81B00A1E788 /* VaadinIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94C8DF12232B81B00A1E788 /* VaadinIcons.swift */; };
 		B596769532730433A1E4D88965F00597 /* Pods-MGTemplateKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA947082E71754E98AC0CD89D64AE49 /* Pods-MGTemplateKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B704E3D78531AAB5BE24B434C382C104 /* MGTemplateKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A3FFE203F86C188531EA032A237E0 /* MGTemplateKit-dummy.m */; };
 		BD787F1FC58245F32CEEF728364E108A /* Pods-MGTemplateKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB037D886E7E323E4CE44AB2897D566 /* Pods-MGTemplateKit_Example-dummy.m */; };
@@ -16,7 +46,6 @@
 		CFFFFA1BD7E46A0373ACD64D74661C26 /* Pods-MGTemplateKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A5034E9846FABB179B5B3B6F613653 /* Pods-MGTemplateKit_Tests-dummy.m */; };
 		E04CFCC263F7691DFC541ED350CD81F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		F45CEC2853F13591CF4774BEA2564E21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		F53941F3401E98214C41D7EC7439B069 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A5C1BC28A22E087555A35BF46C45 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +67,8 @@
 
 /* Begin PBXFileReference section */
 		16A5034E9846FABB179B5B3B6F613653 /* Pods-MGTemplateKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGTemplateKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		1A592DBD6477199D3D3191814BA26389 /* MGTemplateKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MGTemplateKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1A592DBD6477199D3D3191814BA26389 /* MGTemplateKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MGTemplateKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2B8D7148B8D876483B8CB643F9364040 /* Pods-MGTemplateKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGTemplateKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3FE2A5C1BC28A22E087555A35BF46C45 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MGTemplateKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		40754985426DE934B78B18C26A0E8A03 /* MGTemplateKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGTemplateKit.modulemap; sourceTree = "<group>"; };
 		44B8C5C2A5EFA908B33BB2CD371E4852 /* Pods-MGTemplateKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGTemplateKit_Example.modulemap"; sourceTree = "<group>"; };
 		4594B2B5470D5C95EF4E2900F8465BB2 /* Pods-MGTemplateKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGTemplateKit_Example-Info.plist"; sourceTree = "<group>"; };
@@ -48,22 +76,52 @@
 		5BA947082E71754E98AC0CD89D64AE49 /* Pods-MGTemplateKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGTemplateKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		5F5452291522BE14DDE16735B4733FBB /* MGTemplateKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGTemplateKit-prefix.pch"; sourceTree = "<group>"; };
 		61D317A11A2D0B78277E0259F662B9C0 /* MGTemplateKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGTemplateKit-umbrella.h"; sourceTree = "<group>"; };
-		77C14E350BE65A99172110C16FEB1F64 /* MGTemplateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGTemplateKit.framework; path = MGTemplateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C14E350BE65A99172110C16FEB1F64 /* MGTemplateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGTemplateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80253B20EA4D46A86621155C748083D3 /* Pods-MGTemplateKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGTemplateKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		81F62749DB2F8081B6C4D46264A765CB /* Pods_MGTemplateKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGTemplateKit_Example.framework; path = "Pods-MGTemplateKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8616249F48582A8274C57175D5B32CB9 /* Pods_MGTemplateKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGTemplateKit_Tests.framework; path = "Pods-MGTemplateKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F62749DB2F8081B6C4D46264A765CB /* Pods_MGTemplateKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGTemplateKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8616249F48582A8274C57175D5B32CB9 /* Pods_MGTemplateKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGTemplateKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C53AB7054A7CBD32B3311573CF87C2E /* Pods-MGTemplateKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGTemplateKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		94DB8AB14C1EBDFA7D1B76B0453CAADD /* Pods-MGTemplateKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGTemplateKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F6570928CE377E9DC53286F49CD39EA /* Pods-MGTemplateKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGTemplateKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A94C8D872232A54B00A1E788 /* FontLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = MGTemplateKit/Classes/FontLoader.swift; sourceTree = "<group>"; };
+		A94C8D892232B0EB00A1E788 /* SwiftIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftIcons.swift; path = MGTemplateKit/Classes/SwiftIcons.swift; sourceTree = "<group>"; };
+		A94C8DB52232B3D000A1E788 /* FontAwesomeSolid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesomeSolid.ttf; sourceTree = "<group>"; };
+		A94C8DB62232B3D000A1E788 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		A94C8DB72232B3D000A1E788 /* FontAwesomeRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesomeRegular.ttf; sourceTree = "<group>"; };
+		A94C8DB82232B3D000A1E788 /* FontAwesomeBrands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesomeBrands.ttf; sourceTree = "<group>"; };
+		A94C8DB92232B3D000A1E788 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		A94C8DBB2232B3D000A1E788 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		A94C8DBD2232B3D000A1E788 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		A94C8DBE2232B3D000A1E788 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		A94C8DBF2232B3D000A1E788 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		A94C8DC02232B3D000A1E788 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A94C8DC12232B3D000A1E788 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A94C8DC22232B3D000A1E788 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A94C8DC32232B3D000A1E788 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		A94C8DC42232B3D000A1E788 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		A94C8DC52232B3D000A1E788 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A94C8DC62232B3D000A1E788 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		A94C8DC72232B3D000A1E788 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		A94C8DC82232B3D000A1E788 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		A94C8DDB2232B68000A1E788 /* FontAwesome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = MGTemplateKit/Classes/FontAwesome.swift; sourceTree = "<group>"; };
+		A94C8DDD2232B6AC00A1E788 /* Ionicons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Ionicons.swift; path = MGTemplateKit/Classes/Ionicons.swift; sourceTree = "<group>"; };
+		A94C8DDF2232B6CC00A1E788 /* MaterialDesignIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MaterialDesignIcons.swift; path = MGTemplateKit/Classes/MaterialDesignIcons.swift; sourceTree = "<group>"; };
+		A94C8DE52232B77A00A1E788 /* Data+New.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+New.swift"; sourceTree = "<group>"; };
+		A94C8DE62232B77A00A1E788 /* String+New.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+New.swift"; sourceTree = "<group>"; };
+		A94C8DE72232B77A00A1E788 /* DateFormatter+New.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+New.swift"; sourceTree = "<group>"; };
+		A94C8DEB2232B7C500A1E788 /* UIControl+New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+New.swift"; sourceTree = "<group>"; };
+		A94C8DED2232B7E000A1E788 /* UIGestureRecognizer+New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIGestureRecognizer+New.swift"; sourceTree = "<group>"; };
+		A94C8DEF2232B7FC00A1E788 /* UIImage+New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+New.swift"; sourceTree = "<group>"; };
+		A94C8DF12232B81B00A1E788 /* VaadinIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VaadinIcons.swift; path = MGTemplateKit/Classes/VaadinIcons.swift; sourceTree = "<group>"; };
 		B6D1079DB8AD353D8B2210D58438C61A /* MGTemplateKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGTemplateKit.xcconfig; sourceTree = "<group>"; };
 		C75251ADF00278B5EBF74259D432BE12 /* Pods-MGTemplateKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGTemplateKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CEBA8D8A05C0F8EAB0F0F64A027B2919 /* Pods-MGTemplateKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGTemplateKit_Tests.modulemap"; sourceTree = "<group>"; };
-		E24E191C39D054B75D4653EEBE68540A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E24E191C39D054B75D4653EEBE68540A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E8ADF57D2D16EB39B511AC318144C7F5 /* Pods-MGTemplateKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGTemplateKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E9CBFB9C85685ED982D22EE182217DC5 /* Pods-MGTemplateKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGTemplateKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EB3FE353AB6464904321C3DE21FFEF3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EB3FE353AB6464904321C3DE21FFEF3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EF0FCBC4F7B29A831CC2FC7EE659B35A /* Pods-MGTemplateKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGTemplateKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F9A834C1A9C1A9756634275C04F07A84 /* Pods-MGTemplateKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGTemplateKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FAB037D886E7E323E4CE44AB2897D566 /* Pods-MGTemplateKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGTemplateKit_Example-dummy.m"; sourceTree = "<group>"; };
@@ -102,7 +160,14 @@
 		3DB74CC8B9C4DB90B8A4610F96CE3AEF /* MGTemplateKit */ = {
 			isa = PBXGroup;
 			children = (
-				3FE2A5C1BC28A22E087555A35BF46C45 /* ReplaceMe.swift */,
+				A94C8DE42232B77A00A1E788 /* Extensions */,
+				A94C8D872232A54B00A1E788 /* FontLoader.swift */,
+				A94C8D892232B0EB00A1E788 /* SwiftIcons.swift */,
+				A94C8DDB2232B68000A1E788 /* FontAwesome.swift */,
+				A94C8DDD2232B6AC00A1E788 /* Ionicons.swift */,
+				A94C8DDF2232B6CC00A1E788 /* MaterialDesignIcons.swift */,
+				A94C8DF12232B81B00A1E788 /* VaadinIcons.swift */,
+				A94C8DB32232B3D000A1E788 /* Fonts */,
 				EB5855F577E67A489DAFDF9EEF2A376C /* Pod */,
 				3E4C3666DBD9472B140DE7AD6A0997C1 /* Support Files */,
 			);
@@ -147,6 +212,70 @@
 				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		A94C8DB32232B3D000A1E788 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A94C8DB42232B3D000A1E788 /* FontAwesome */,
+				A94C8DBA2232B3D000A1E788 /* IonIcons */,
+				A94C8DBC2232B3D000A1E788 /* Roboto */,
+			);
+			name = Fonts;
+			path = MGTemplateKit/Assets/Fonts;
+			sourceTree = "<group>";
+		};
+		A94C8DB42232B3D000A1E788 /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				A94C8DB52232B3D000A1E788 /* FontAwesomeSolid.ttf */,
+				A94C8DB62232B3D000A1E788 /* FontAwesome.ttf */,
+				A94C8DB72232B3D000A1E788 /* FontAwesomeRegular.ttf */,
+				A94C8DB82232B3D000A1E788 /* FontAwesomeBrands.ttf */,
+				A94C8DB92232B3D000A1E788 /* MaterialIcons.ttf */,
+			);
+			path = FontAwesome;
+			sourceTree = "<group>";
+		};
+		A94C8DBA2232B3D000A1E788 /* IonIcons */ = {
+			isa = PBXGroup;
+			children = (
+				A94C8DBB2232B3D000A1E788 /* Ionicons.ttf */,
+			);
+			path = IonIcons;
+			sourceTree = "<group>";
+		};
+		A94C8DBC2232B3D000A1E788 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				A94C8DBD2232B3D000A1E788 /* Roboto-Medium.ttf */,
+				A94C8DBE2232B3D000A1E788 /* Roboto-Light.ttf */,
+				A94C8DBF2232B3D000A1E788 /* Roboto-Regular.ttf */,
+				A94C8DC02232B3D000A1E788 /* Roboto-MediumItalic.ttf */,
+				A94C8DC12232B3D000A1E788 /* Roboto-ThinItalic.ttf */,
+				A94C8DC22232B3D000A1E788 /* Roboto-BoldItalic.ttf */,
+				A94C8DC32232B3D000A1E788 /* Roboto-LightItalic.ttf */,
+				A94C8DC42232B3D000A1E788 /* Roboto-Italic.ttf */,
+				A94C8DC52232B3D000A1E788 /* Roboto-BlackItalic.ttf */,
+				A94C8DC62232B3D000A1E788 /* Roboto-Bold.ttf */,
+				A94C8DC72232B3D000A1E788 /* Roboto-Thin.ttf */,
+				A94C8DC82232B3D000A1E788 /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		A94C8DE42232B77A00A1E788 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A94C8DE52232B77A00A1E788 /* Data+New.swift */,
+				A94C8DE62232B77A00A1E788 /* String+New.swift */,
+				A94C8DE72232B77A00A1E788 /* DateFormatter+New.swift */,
+				A94C8DEB2232B7C500A1E788 /* UIControl+New.swift */,
+				A94C8DED2232B7E000A1E788 /* UIGestureRecognizer+New.swift */,
+				A94C8DEF2232B7FC00A1E788 /* UIImage+New.swift */,
+			);
+			name = Extensions;
+			path = MGTemplateKit/Classes/Extensions;
 			sourceTree = "<group>";
 		};
 		AA1E1E4D98B7926F81672411B051E5EE /* Products */ = {
@@ -315,6 +444,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					4BC7778DE94453F3255050FE7C4BFF23 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -340,6 +474,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A94C8DCB2232B3D000A1E788 /* FontAwesomeRegular.ttf in Resources */,
+				A94C8DC92232B3D000A1E788 /* FontAwesomeSolid.ttf in Resources */,
+				A94C8DD92232B3D000A1E788 /* Roboto-Thin.ttf in Resources */,
+				A94C8DCE2232B3D000A1E788 /* Ionicons.ttf in Resources */,
+				A94C8DD32232B3D000A1E788 /* Roboto-ThinItalic.ttf in Resources */,
+				A94C8DDA2232B3D000A1E788 /* Roboto-Black.ttf in Resources */,
+				A94C8DD52232B3D000A1E788 /* Roboto-LightItalic.ttf in Resources */,
+				A94C8DCF2232B3D000A1E788 /* Roboto-Medium.ttf in Resources */,
+				A94C8DCD2232B3D000A1E788 /* MaterialIcons.ttf in Resources */,
+				A94C8DD72232B3D000A1E788 /* Roboto-BlackItalic.ttf in Resources */,
+				A94C8DD42232B3D000A1E788 /* Roboto-BoldItalic.ttf in Resources */,
+				A94C8DCA2232B3D000A1E788 /* FontAwesome.ttf in Resources */,
+				A94C8DD22232B3D000A1E788 /* Roboto-MediumItalic.ttf in Resources */,
+				A94C8DD12232B3D000A1E788 /* Roboto-Regular.ttf in Resources */,
+				A94C8DD62232B3D000A1E788 /* Roboto-Italic.ttf in Resources */,
+				A94C8DD02232B3D000A1E788 /* Roboto-Light.ttf in Resources */,
+				A94C8DD82232B3D000A1E788 /* Roboto-Bold.ttf in Resources */,
+				A94C8DCC2232B3D000A1E788 /* FontAwesomeBrands.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,8 +516,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A94C8DEC2232B7C500A1E788 /* UIControl+New.swift in Sources */,
+				A94C8DE92232B77A00A1E788 /* String+New.swift in Sources */,
+				A94C8DEA2232B77A00A1E788 /* DateFormatter+New.swift in Sources */,
 				B704E3D78531AAB5BE24B434C382C104 /* MGTemplateKit-dummy.m in Sources */,
-				F53941F3401E98214C41D7EC7439B069 /* ReplaceMe.swift in Sources */,
+				A94C8DEE2232B7E000A1E788 /* UIGestureRecognizer+New.swift in Sources */,
+				A94C8DF22232B81B00A1E788 /* VaadinIcons.swift in Sources */,
+				A94C8DE02232B6CC00A1E788 /* MaterialDesignIcons.swift in Sources */,
+				A94C8DDE2232B6AC00A1E788 /* Ionicons.swift in Sources */,
+				A94C8D8A2232B0EB00A1E788 /* SwiftIcons.swift in Sources */,
+				A94C8D882232A54B00A1E788 /* FontLoader.swift in Sources */,
+				A94C8DE82232B77A00A1E788 /* Data+New.swift in Sources */,
+				A94C8DF02232B7FC00A1E788 /* UIImage+New.swift in Sources */,
+				A94C8DDC2232B68000A1E788 /* FontAwesome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,8 +726,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -694,7 +856,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -726,7 +888,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
