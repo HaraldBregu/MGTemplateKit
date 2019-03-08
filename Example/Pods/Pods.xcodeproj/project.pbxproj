@@ -39,6 +39,7 @@
 		8D91A124868A3F4EAC077D1D0321238A /* Pods-MGTemplateKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C02956EBAF1278FEB833C5FF652105 /* Pods-MGTemplateKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		931CDDC89D1912962A0AE52EE3D48326 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4031EF1C2E291F187F1AD5D66CF153C7 /* Ionicons.ttf */; };
 		9AC5C481950566A913F1B1B9386B7DF3 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A91DDB1CBA5C7F52E40911331CF5E /* FontAwesome.swift */; };
+		A98717D8223306CE007098F0 /* Bundle+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98717D7223306CE007098F0 /* Bundle+New.swift */; };
 		AB925C48040549615C516E9F2BFD9139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A4922CAE8EA31DD759A74CDB5063D /* Foundation.framework */; };
 		AF3EA7D3CD54596CA0734ACE63CACC74 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965C1EFD9B12039C3BF77FB29F945C6C /* StringExtension.swift */; };
 		B06EEEA5D108AB2736B2D59173E096AB /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C13FCEE26AB0DAE3DC64A259507DAA7 /* Roboto-Black.ttf */; };
@@ -88,39 +89,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00AC819850F0EFE75F63CD3D8AD4747A /* Roboto-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Light.ttf"; path = "MGTemplateKit/Assets/Roboto-Light.ttf"; sourceTree = "<group>"; };
-		09645AFEC5D731B63464BE2E8CE724E2 /* FontAwesomeSolid.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesomeSolid.ttf; path = MGTemplateKit/Assets/FontAwesomeSolid.ttf; sourceTree = "<group>"; };
-		09D4B9A21407092C664692263A52C9C1 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-BoldItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		00AC819850F0EFE75F63CD3D8AD4747A /* Roboto-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "MGTemplateKit/Assets/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		09645AFEC5D731B63464BE2E8CE724E2 /* FontAwesomeSolid.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesomeSolid.ttf; path = MGTemplateKit/Assets/FontAwesomeSolid.ttf; sourceTree = "<group>"; };
+		09D4B9A21407092C664692263A52C9C1 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-BoldItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
 		1173024843A2EA9482C1B6C73D00186A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1586DF4B4F0D30C7DE4FFEA0FB80947D /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-ThinItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		1586DF4B4F0D30C7DE4FFEA0FB80947D /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-ThinItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		1683FDADFEC0AB396214D064EC2D13E8 /* MGTemplateKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGTemplateKit.modulemap; sourceTree = "<group>"; };
-		1CC5B315B1BBC05C87373800281DBBE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1CC5B315B1BBC05C87373800281DBBE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		241667547BA614572935DC36475CE471 /* Pods-MGTemplateKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGTemplateKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		285A91DDB1CBA5C7F52E40911331CF5E /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = MGTemplateKit/Classes/FontAwesome.swift; sourceTree = "<group>"; };
 		2F3A4922CAE8EA31DD759A74CDB5063D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		31119EFD5146076FD54362AA38D76EE5 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Regular.ttf"; path = "MGTemplateKit/Assets/Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		35D0D2777DE383BB3152D948AAD3A5BD /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIColor_Hex_Swift.framework; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35F710BDB2ABD0933F48AFD3850B3C12 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Thin.ttf"; path = "MGTemplateKit/Assets/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		31119EFD5146076FD54362AA38D76EE5 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "MGTemplateKit/Assets/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		35D0D2777DE383BB3152D948AAD3A5BD /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F710BDB2ABD0933F48AFD3850B3C12 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "MGTemplateKit/Assets/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		39FA8919F8D9306722B86A1388CC8EC7 /* MGTemplate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGTemplate.swift; path = MGTemplateKit/Classes/MGTemplate.swift; sourceTree = "<group>"; };
-		3C13FCEE26AB0DAE3DC64A259507DAA7 /* Roboto-Black.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Black.ttf"; path = "MGTemplateKit/Assets/Roboto-Black.ttf"; sourceTree = "<group>"; };
-		4031EF1C2E291F187F1AD5D66CF153C7 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = MGTemplateKit/Assets/Ionicons.ttf; sourceTree = "<group>"; };
-		44D7FA864110D9379873DF8E71A320E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		44FB5CC95799723FA0B85BCC0323DBB6 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = MGTemplateKit/Assets/FontAwesome.ttf; sourceTree = "<group>"; };
+		3C13FCEE26AB0DAE3DC64A259507DAA7 /* Roboto-Black.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "MGTemplateKit/Assets/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		4031EF1C2E291F187F1AD5D66CF153C7 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Ionicons.ttf; path = MGTemplateKit/Assets/Ionicons.ttf; sourceTree = "<group>"; };
+		44D7FA864110D9379873DF8E71A320E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		44FB5CC95799723FA0B85BCC0323DBB6 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.ttf; path = MGTemplateKit/Assets/FontAwesome.ttf; sourceTree = "<group>"; };
 		4A3D42FDB7248C471F2A886CA3E532F0 /* MGTemplateKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGTemplateKit-umbrella.h"; sourceTree = "<group>"; };
 		4EA184D802C8ED6D24736E46A2495450 /* Pods-MGTemplateKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGTemplateKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		503A1CDD0778A57A595CAF97BEDC05DB /* FontAwesomeRegular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesomeRegular.ttf; path = MGTemplateKit/Assets/FontAwesomeRegular.ttf; sourceTree = "<group>"; };
-		504F8080F3F2F3D2A959CB6173852158 /* MGTemplateKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MGTemplateKit.bundle; path = "MGTemplateKit-MGTemplateKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5517B2CAC6C909E1FEC5E103A3DFAE6E /* MGTemplateKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MGTemplateKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		503A1CDD0778A57A595CAF97BEDC05DB /* FontAwesomeRegular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesomeRegular.ttf; path = MGTemplateKit/Assets/FontAwesomeRegular.ttf; sourceTree = "<group>"; };
+		504F8080F3F2F3D2A959CB6173852158 /* MGTemplateKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGTemplateKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5517B2CAC6C909E1FEC5E103A3DFAE6E /* MGTemplateKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MGTemplateKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		59DFBEC05B4F799D079BBC90AC0C80AD /* UIColorInputError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorInputError.swift; path = HEXColor/UIColorInputError.swift; sourceTree = "<group>"; };
 		5B7842E5F8265D236B165CCDDFF1C20D /* UIControl+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIControl+New.swift"; sourceTree = "<group>"; };
 		5C7F3D7E84E53E9E056003209754AE1C /* MaterialDesignIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialDesignIcons.swift; path = MGTemplateKit/Classes/MaterialDesignIcons.swift; sourceTree = "<group>"; };
 		5E710C1E2331BC49D093A76C09012A2B /* Pods-MGTemplateKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGTemplateKit_Example-dummy.m"; sourceTree = "<group>"; };
-		6006C3BF0933BE528F36FF861068451B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Medium.ttf"; path = "MGTemplateKit/Assets/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		6006C3BF0933BE528F36FF861068451B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "MGTemplateKit/Assets/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		67B5F24E58F0492EA6DCFA21700FC6AA /* HEXColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HEXColor.h; path = HEXColor/HEXColor.h; sourceTree = "<group>"; };
-		680BD4FA1A2F3778692931C7EC456421 /* MaterialIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = MaterialIcons.ttf; path = MGTemplateKit/Assets/MaterialIcons.ttf; sourceTree = "<group>"; };
+		680BD4FA1A2F3778692931C7EC456421 /* MaterialIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = MaterialIcons.ttf; path = MGTemplateKit/Assets/MaterialIcons.ttf; sourceTree = "<group>"; };
 		6DC2D1B4BD0928467DAB66617E30EDF7 /* UIColor_Hex_Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIColor_Hex_Swift-Info.plist"; sourceTree = "<group>"; };
 		6F5608CD2617666A341FB03FE73DB23B /* MGTemplateKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGTemplateKit-Info.plist"; sourceTree = "<group>"; };
-		707E7689411613DDE3427E2F2E27E40E /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-MediumItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		707E7689411613DDE3427E2F2E27E40E /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-MediumItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
 		70C7AD3986EB0BE9F263F76E2AD092DB /* UIColor_Hex_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor_Hex_Swift-dummy.m"; sourceTree = "<group>"; };
 		7A98D1D2508D386FC8F10139F5F7ABCB /* ResourceBundle-MGTemplateKit-MGTemplateKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MGTemplateKit-MGTemplateKit-Info.plist"; sourceTree = "<group>"; };
 		7E51C012F44191BBD82A7E84FA4C6A3D /* UIImage+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+New.swift"; sourceTree = "<group>"; };
@@ -129,27 +130,28 @@
 		965C1EFD9B12039C3BF77FB29F945C6C /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = HEXColor/StringExtension.swift; sourceTree = "<group>"; };
 		99C02956EBAF1278FEB833C5FF652105 /* Pods-MGTemplateKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGTemplateKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		9C370DFC710A508188977C031A2700FE /* UIColor_Hex_Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIColor_Hex_Swift.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FEFB9B35FE958FEA69B00A19607A661 /* MGTemplateKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGTemplateKit.xcconfig; sourceTree = "<group>"; };
-		A01658C3CFA135664EABB3DF674FC409 /* FontAwesomeBrands.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesomeBrands.ttf; path = MGTemplateKit/Assets/FontAwesomeBrands.ttf; sourceTree = "<group>"; };
+		A01658C3CFA135664EABB3DF674FC409 /* FontAwesomeBrands.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesomeBrands.ttf; path = MGTemplateKit/Assets/FontAwesomeBrands.ttf; sourceTree = "<group>"; };
 		A0E07751802A19734FC386816093E3BC /* Pods-MGTemplateKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGTemplateKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A98717D7223306CE007098F0 /* Bundle+New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+New.swift"; sourceTree = "<group>"; };
 		ADA576D174D5DEB6857F3772602DA5E0 /* DateFormatter+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DateFormatter+New.swift"; sourceTree = "<group>"; };
 		AEDFE273FA92C24B6ECBFC0DBDAD0E8F /* Pods-MGTemplateKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGTemplateKit_Example.modulemap"; sourceTree = "<group>"; };
 		AF8228688C6A2B7CE954949EC38E121D /* MGTemplateKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGTemplateKit-dummy.m"; sourceTree = "<group>"; };
-		B945950A9FFC90A10BD0BB087F95DC9F /* Roboto-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Italic.ttf"; path = "MGTemplateKit/Assets/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		B945950A9FFC90A10BD0BB087F95DC9F /* Roboto-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Italic.ttf"; path = "MGTemplateKit/Assets/Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		C168A3FFF0280BACCF213A58E10B813F /* Pods-MGTemplateKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGTemplateKit_Example-Info.plist"; sourceTree = "<group>"; };
-		CC6A33B401E636B8780ACBA693BDEF2F /* Pods_MGTemplateKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGTemplateKit_Example.framework; path = "Pods-MGTemplateKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6A33B401E636B8780ACBA693BDEF2F /* Pods_MGTemplateKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGTemplateKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7F8B21B3B8FED35A5B836490A0D5EC /* UIGestureRecognizer+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIGestureRecognizer+New.swift"; sourceTree = "<group>"; };
 		CDC4A028C0E74C83567095C278636D9B /* UIColor_Hex_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIColor_Hex_Swift.modulemap; sourceTree = "<group>"; };
-		CE0FC50279D78C3AD0222830ABC0F954 /* MGTemplateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGTemplateKit.framework; path = MGTemplateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0FC50279D78C3AD0222830ABC0F954 /* MGTemplateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGTemplateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4AF9B61297FAD0F10479C3D4FB7571 /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = MGTemplateKit/Classes/FontLoader.swift; sourceTree = "<group>"; };
 		D1E678A2275D71E01D69F08768AFF05B /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE43C55EFC537B7E60C5B8BF131D80F /* UIColor_Hex_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-umbrella.h"; sourceTree = "<group>"; };
-		DE04B90638D14ED8904AEC94401025C4 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-LightItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		DE04B90638D14ED8904AEC94401025C4 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-LightItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
 		E066ECCCA5476611CF80B5A96FCDB96C /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = HEXColor/UIColorExtension.swift; sourceTree = "<group>"; };
-		E610B03B7BC1D6F4EDB103FCC84EAC5A /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-BlackItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E610B03B7BC1D6F4EDB103FCC84EAC5A /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-BlackItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 		E81D42738F0756336D96DD1D36B87A94 /* SwiftIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIcons.swift; path = MGTemplateKit/Classes/SwiftIcons.swift; sourceTree = "<group>"; };
-		E9FB02233725C30AE33394677C8CED24 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Bold.ttf"; path = "MGTemplateKit/Assets/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		E9FB02233725C30AE33394677C8CED24 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "MGTemplateKit/Assets/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		EA6F10F1D438E29FF0156886AE7273C0 /* Pods-MGTemplateKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGTemplateKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EFE3C060A096F191414BCA35FAE6D813 /* String+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+New.swift"; sourceTree = "<group>"; };
 		F49EAC45260CA90D87DAE554DBA6BC78 /* Pods-MGTemplateKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGTemplateKit_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 		525A8139494A846CFDDD78B99E8C8799 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A98717D7223306CE007098F0 /* Bundle+New.swift */,
 				FF4A92748C46BAED0EE14FD569E053FB /* Data+New.swift */,
 				ADA576D174D5DEB6857F3772602DA5E0 /* DateFormatter+New.swift */,
 				EFE3C060A096F191414BCA35FAE6D813 /* String+New.swift */,
@@ -321,7 +324,6 @@
 				59DFBEC05B4F799D079BBC90AC0C80AD /* UIColorInputError.swift */,
 				43C353EA089216250E55CCC666DD23F9 /* Support Files */,
 			);
-			name = UIColor_Hex_Swift;
 			path = UIColor_Hex_Swift;
 			sourceTree = "<group>";
 		};
@@ -596,6 +598,7 @@
 				43E278F02A48B2D3E538DD916ADA97E0 /* DateFormatter+New.swift in Sources */,
 				9AC5C481950566A913F1B1B9386B7DF3 /* FontAwesome.swift in Sources */,
 				CEB28CE078FCA4339490A022E14D025E /* FontLoader.swift in Sources */,
+				A98717D8223306CE007098F0 /* Bundle+New.swift in Sources */,
 				2842186C7251ADD720A4CFA61E2D91D9 /* Ionicons.swift in Sources */,
 				7C9E21F1B4CD17D12A90AC020FE41E0A /* MaterialDesignIcons.swift in Sources */,
 				F0B266F6A4AD408C2DD8DABE36344721 /* MGTemplate.swift in Sources */,
@@ -822,8 +825,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

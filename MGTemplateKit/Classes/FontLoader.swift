@@ -60,15 +60,8 @@ public class FontLoader {
         let fileName = fontType.fileName
         let fontName = fontType.fontName
         
-        print("Something.Example.rer")
-        print("Bundle one: \(Bundle(for: FontLoader.self))")
-        print("Bundle main: \(Bundle.main)")
-        print("Bundle all: \(Bundle.allBundles)")
-        
         if loadedFontsTracker[fontName]! == false {
-//            let bundle = Bundle(for: FontLoader.self)
-            let bundle = Bundle.main
-            print(bundle)
+            let bundle = Bundle.current
             let fontURL = bundle.url(forResource: fileName, withExtension: "ttf")!
             do {
                 let data = try Data(contentsOf: fontURL)
