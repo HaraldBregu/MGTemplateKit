@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://haraldbregu@bitbucket.org/haraldbregu/mgtemplatekit.git', :tag => s.version.to_s }
   s.source_files = "MGTemplateKit/Classes/**/*"
   s.resource_bundles = { 'MGTemplateKit' => ['MGTemplateKit/Assets/*.ttf'] }
+  s.dependency 'UIColor_Hex_Swift', '~> 4.2.0'
   s.swift_version = "4.2"
   s.ios.deployment_target = "11.0"
 end

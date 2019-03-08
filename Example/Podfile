@@ -4,8 +4,4 @@ use_frameworks!
 target 'MGTemplateKit_Example' do
   pod 'MGTemplateKit', :path => '../'
 
-  target 'MGTemplateKit_Tests' do
-    inherit! :search_paths
-
-  end
 end
