@@ -23,13 +23,15 @@ class ViewController: UIViewController {
 //        print("Bundle main: \(Bundle.main)")
 //        print("Bundle all: \(Bundle.allBundles)")
         
+        let fontType = FontType.ionicons(.androidAlert)
+        
+        
+        FontLoader.loadFontIfNeeded(fontType: fontType)
 
-//        FontLoader.loadFontIfNeeded(fontType: FontType.ionicons(.androidAlert))
-
-        let size = 230
-        imageView0.image = UIImage(icon: .ionicons(IoniconsType.androidHome), size: CGSize(width: size, height: size), textColor: .black, backgroundColor: .clear)
-        imageView1.image = UIImage(icon: .ionicons(IoniconsType.alert), size: CGSize(width: size, height: size), textColor: .black, backgroundColor: .clear)
-        imageView2.image = UIImage(icon: .ionicons(IoniconsType.androidAlert), size: CGSize(width: size, height: size), textColor: .black, backgroundColor: .clear)
+//        let size = 230
+//        imageView0.image = UIImage(icon: .ionicons(IoniconsType.androidHome), size: CGSize(width: size, height: size), textColor: .black, backgroundColor: .clear)
+//        imageView1.image = UIImage(icon: .ionicons(IoniconsType.alert), size: CGSize(width: size, height: size), textColor: .black, backgroundColor: .clear)
+//        imageView2.image = UIImage(icon: .ionicons(IoniconsType.androidAlert), size: CGSize(width: size, height: size), textColor: .black, backgroundColor: .clear)
 
         
         //label.font = MGGeneral.Font.black(size: 32)
