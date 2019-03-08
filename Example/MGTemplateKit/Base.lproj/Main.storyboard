@@ -34,10 +34,19 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdY-Ow-kRF">
+                                <rect key="frame" x="26" y="190" width="323" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="AdY-Ow-kRF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="KzM-0o-r6k"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AdY-Ow-kRF" secondAttribute="trailing" constant="10" id="QPL-nb-3Th"/>
                             <constraint firstItem="uuh-QV-7dJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="TvH-Y3-CyO"/>
+                            <constraint firstItem="AdY-Ow-kRF" firstAttribute="top" secondItem="uuh-QV-7dJ" secondAttribute="bottom" constant="20" id="i9K-rl-DCf"/>
                             <constraint firstItem="uuh-QV-7dJ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="22" id="voC-9k-K6R"/>
                             <constraint firstAttribute="trailing" secondItem="uuh-QV-7dJ" secondAttribute="trailing" constant="10" id="yDC-RD-FrH"/>
                         </constraints>
@@ -46,6 +55,7 @@
                         <outlet property="imageView0" destination="L1A-tz-5Q4" id="hsO-MO-A81"/>
                         <outlet property="imageView1" destination="mOj-Mp-vic" id="0f9-U1-lst"/>
                         <outlet property="imageView2" destination="9md-PZ-cBz" id="B7d-Us-QuO"/>
+                        <outlet property="label" destination="AdY-Ow-kRF" id="gyN-2m-KH0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
