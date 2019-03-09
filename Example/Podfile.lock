@@ -1,5 +1,7 @@
 PODS:
-  - MGTemplateKit (0.1.4):
+  - FontBlaster (4.1.0)
+  - MGTemplateKit (0.1.5):
+    - FontBlaster
     - UIColor_Hex_Swift (~> 4.2.0)
   - UIColor_Hex_Swift (4.2.0)
 
@@ -8,6 +10,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - FontBlaster
     - UIColor_Hex_Swift
 
 EXTERNAL SOURCES:
@@ -15,7 +18,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MGTemplateKit: 3535e5c9761e669b2cd0afebaed9ffc6424c8cea
+  FontBlaster: 127aa66419478d1c62926c7fdb39841633344a45
+  MGTemplateKit: 578e1e9c146a43d0c3b701e7986400c44dc7f582
   UIColor_Hex_Swift: bc07fc197421ee896b9ed6dcfa2054b7fbf75145
 
 PODFILE CHECKSUM: 0b1d62785c60515555d171546bfb8e6802443dd5

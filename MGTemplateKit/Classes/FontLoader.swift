@@ -60,25 +60,25 @@ public class FontLoader {
         let fileName = fontType.fileName
         let fontName = fontType.fontName
         
-        if loadedFontsTracker[fontName]! == false {
-            let bundle = Bundle.current
-            let fontURL = bundle.url(forResource: fileName, withExtension: "ttf")!
-            do {
-                let data = try Data(contentsOf: fontURL)
-                let provider = CGDataProvider(data: data as CFData)
-                let font = CGFont(provider!)!
-                var error: Unmanaged<CFError>?
-                if CTFontManagerRegisterGraphicsFont(font, &error) == false {
-                    let errorDescription: CFString = CFErrorCopyDescription(error!.takeUnretainedValue())
-                    let nsError = error!.takeUnretainedValue() as AnyObject as! NSError
-                    NSException(name: NSExceptionName.internalInconsistencyException, reason: errorDescription as String, userInfo: [NSUnderlyingErrorKey: nsError]).raise()
-                } else {
-                    loadedFontsTracker[fontName] = true
-                }
-            } catch let error {
-                print("Error loading font: \(error)")
-            }
-        }
+//        if loadedFontsTracker[fontName]! == false {
+//            let bundle = Bundle.current
+//            let fontURL = bundle.url(forResource: fileName, withExtension: "ttf")!
+//            do {
+//                let data = try Data(contentsOf: fontURL)
+//                let provider = CGDataProvider(data: data as CFData)
+//                let font = CGFont(provider!)!
+//                var error: Unmanaged<CFError>?
+//                if CTFontManagerRegisterGraphicsFont(font, &error) == false {
+//                    let errorDescription: CFString = CFErrorCopyDescription(error!.takeUnretainedValue())
+//                    let nsError = error!.takeUnretainedValue() as AnyObject as! NSError
+//                    NSException(name: NSExceptionName.internalInconsistencyException, reason: errorDescription as String, userInfo: [NSUnderlyingErrorKey: nsError]).raise()
+//                } else {
+//                    loadedFontsTracker[fontName] = true
+//                }
+//            } catch let error {
+//                print("Error loading font: \(error)")
+//            }
+//        }
     }
     
     public static func loadFontIfNeeded(_ icon: FontEnum) {
