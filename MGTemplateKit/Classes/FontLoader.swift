@@ -57,8 +57,8 @@ public class FontLoader {
     }
     
     public static func loadFontIfNeeded(fontType : FontType) {
-        let fileName = fontType.fileName
-        let fontName = fontType.fontName
+//        let fileName = fontType.fileName
+//        let fontName = fontType.fontName
         
 //        if loadedFontsTracker[fontName]! == false {
 //            let bundle = Bundle.current
