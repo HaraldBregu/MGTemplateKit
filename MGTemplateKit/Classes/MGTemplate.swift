@@ -28,178 +28,94 @@ import UIColor_Hex_Swift
 import FontBlaster
 
 public class MGTemplate {
-    
+   
+    private static let darkColor = UIColor("#15161D")
+    private static let contentColor = UIColor("#F3F7F8")
+
     public init() {
-        
-        FontBlaster.blast(bundle: .current) { (fonts) in
-            print("fonts loaded: \(fonts)")
-        }
+        FontBlaster.blast(bundle: Bundle(for: MGTemplate.self))
     }
     
-}
-
-public class Visual {
-    public var backgroundColor:UIColor = .white
-    public var navigationBarColor:UIColor = .white
-    public var fontname:String? = nil
-    public var fontweight:String? = nil
-}
-
-public class Component {
-    public var title:String!
-    public var visual:Visual!
-}
-
-public class MGApp {
-    public var name:String!
-    public var visual:Visual!
-    public var component:[Component]!
-    public static let shared:MGApp = MGApp()
-}
-
-
-
-public class MGGeneral {
-    public let app:MGApp!
-    
-    public init() {
-        app = MGApp()
-        
-        let visual = Visual()
-        visual.backgroundColor = .white
-        visual.navigationBarColor = .white
-        visual.fontname = "Roboto"
-        visual.fontweight = "Bold"
-        
-        app.visual = visual
+    public static func setup() {
+        FontBlaster.blast(bundle: Bundle(for: MGTemplate.self))
     }
-    
-    public class NavBar {
-        public class Theme {
-            public static var light: UIColor {
-                return UIColor("#F3F7F8")
-            }
-            public static var dark: UIColor {
-                return UIColor("#15161D")
-            }
-        }
+
+    public struct NavigationBar {
+        public static let backgroundColor = darkColor
+        public static let tintColor = contentColor
     }
-    
-    public class Label {
-        public class Theme {
-            public static var light: UIColor {
-                return UIColor("#F3F7F8")
-            }
-            public static var dark: UIColor {
-                return UIColor("#15161D")
-            }
-        }
+
+    public struct View {
+        public static let backgroundColor = darkColor
+        public static let tintColor = contentColor
     }
-    
-    public class View {
-        public class Theme {
-            public static var light: UIColor {
-                return UIColor("#F3F7F8")
-            }
-            public static var dark: UIColor {
-                return UIColor("#15161D")
-            }
-        }
-    }
-    
-    public class Refresh {
-        public class Theme {
-            public static var light: UIColor {
-                return .red
-            }
-            public static var dark: UIColor {
-                return UIColor("#15161D")
-            }
-        }
-    }
-    
+
     public class Font {
-        public static func medium(size: CGFloat) -> UIFont? {
-//            UIFont.register("Roboto-Medium.ttf", bundle: .current)
-            return UIFont(name: "Roboto" + "-" + "Medium", size: size)
+        private var size:CGFloat!
+        private var weight:String!
+        
+        public init(size: CGFloat) {
+            self.size = size
         }
-        public static func light(size: CGFloat) -> UIFont? {
-//            UIFont.register("Roboto-Light.ttf", bundle: .current)
-            return UIFont(name: "Roboto" + "-" + "Light", size: size)
+        
+        public var medium:UIFont? {
+            weight = "Medium"
+            return UIFont(name: "Roboto" + "-" + weight, size: size)
         }
-        public static func regular(size: CGFloat) -> UIFont? {
-//            UIFont.register("Roboto-Regular.ttf", bundle: .current)
-            return UIFont(name: "Roboto" + "-" + "Regular", size: size)
+        
+        public var light:UIFont? {
+            weight = "Light"
+            return UIFont(name: "Roboto" + "-" + weight, size: size)
         }
-        public static func mediumItalic(size: CGFloat) -> UIFont? {
-//            UIFont.register("Roboto-MediumItalic.ttf", bundle: .current)
-            return UIFont(name: "Roboto" + "-" + "MediumItalic", size: size)
+        
+        public var regular:UIFont? {
+            weight = "Regular"
+            return UIFont(name: "Roboto" + "-" + weight, size: size)
         }
-        public static func thinItalic(size: CGFloat) -> UIFont? {
-//            UIFont.register("Roboto-ThinItalic.ttf", bundle: .current)
-            return UIFont(name: "Roboto" + "-" + "ThinItalic", size: size)
+        
+        public var mediumItalic:UIFont? {
+            weight = "MediumItalic"
+            return UIFont(name: "Roboto" + "-" + weight, size: size)
         }
-        public static func boldItalic(size: CGFloat) -> UIFont? {
-//            UIFont.register("Roboto-BoldItalic.ttf", bundle: .current)
-            return UIFont(name: "Roboto" + "-" + "BoldItalic", size: size)
+        
+        public var thinItalic:UIFont? {
+            weight = "ThinItalic"
+            return UIFont(name: "Roboto" + "-" + weight, size: size)
         }
-        public static func lightItalic(size: CGFloat) -> UIFont? {
-//            UIFont.register("Roboto-LightItalic.ttf", bundle: .current)
-            return UIFont(name: "Roboto" + "-" + "LightItalic", size: size)
+        
+        public var boldItalic:UIFont? {
+            weight = "BoldItalic"
+            return UIFont(name: "Roboto" + "-" + weight, size: size)
         }
-        public static func italic(size: CGFloat) -> UIFont? {
-//            UIFont.register("Roboto-Italic.ttf", bundle: .current)
-            return UIFont(name: "Roboto" + "-" + "Italic", size: size)
+        
+        public var lightItalic:UIFont? {
+            weight = "LightItalic"
+            return UIFont(name: "Roboto" + "-" + weight, size: size)
         }
-        public static func blackItalic(size: CGFloat) -> UIFont? {
-//            UIFont.register("Roboto-BlackItalic.ttf", bundle: .current)
-            return UIFont(name: "Roboto" + "-" + "BlackItalic", size: size)
+        
+        public var italic:UIFont? {
+            weight = "Italic"
+            return UIFont(name: "Roboto" + "-" + weight, size: size)
         }
-        public static func bold(size: CGFloat) -> UIFont? {
-//            UIFont.register("Roboto-Bold.ttf", bundle: .current)
-            return UIFont(name: "Roboto" + "-" + "Bold", size: size)
+        
+        public var blackItalic:UIFont? {
+            weight = "BlackItalic"
+            return UIFont(name: "Roboto" + "-" + weight, size: size)
         }
-        public static func thin(size: CGFloat) -> UIFont? {
-//            UIFont.register("Roboto-Thin.ttf", bundle: .current)
-            return UIFont(name: "Roboto" + "-" + "Thin", size: size)
+        
+        public var bold:UIFont? {
+            weight = "Bold"
+            return UIFont(name: "Roboto" + "-" + weight, size: size)
         }
-        public static func black(size: CGFloat) -> UIFont? {
-//            UIFo.nt.register("Roboto-Black.ttf", bundle: .current)
-            return UIFont(name: "Roboto-Black", size: size)
+        
+        public var thin:UIFont? {
+            weight = "Thin"
+            return UIFont(name: "Roboto" + "-" + weight, size: size)
         }
-    }
-
-}
-
-
-public extension UIFont {
-    
-    public static func register(_ fileName: String, bundle: Bundle) {
-
-        guard let pathForResourceString = bundle.path(forResource: fileName, ofType: nil) else {
-            print("UIFont+:  Failed to register font - path for resource not found.")
-            return
-        }
-
-        guard let fontData = NSData(contentsOfFile: pathForResourceString) else {
-            print("UIFont+:  Failed to register font - font data could not be loaded.")
-            return
-        }
-
-        guard let dataProvider = CGDataProvider(data: fontData) else {
-            print("UIFont+:  Failed to register font - data provider could not be loaded.")
-            return
-        }
-
-        guard let font = CGFont(dataProvider) else {
-            print("UIFont+:  Failed to register font - font could not be loaded.")
-            return
-        }
-
-        var errorRef: Unmanaged<CFError>? = nil
-        if (CTFontManagerRegisterGraphicsFont(font, &errorRef) == false) {
-            print("UIFont+:  Failed to register font - register graphics font failed - this font may have already been registered in the main bundle.")
+        
+        public var black:UIFont? {
+            weight = "Black"
+            return UIFont(name: "Roboto" + "-" + weight, size: size)
         }
     }
-    
 }
