@@ -19,8 +19,48 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = MGTemplate.NavigationBar.backgroundColor
+        let assets = TemplateAssets(
+            color: TemplateColor(
+                view: .blue,
+                navigationBar: .red,
+                toolBar: .red,
+                scrollView: .red,
+                tableView: .red,
+                tableViewCell: .red,
+                tableViewHeader: .red,
+                tableViewFooter: .red,
+                tableViewHeaderSection: .red,
+                tableViewFooterSection: .red,
+                collectionView: .red,
+                collectionViewCell: .red,
+                collectionViewHeader: .red,
+                collectionViewFooter: .red,
+                collectionViewHeaderSection: .red,
+                collectionViewFooterSection: .red,
+                text: TemplateColorText(
+                    navigationBar: .red,
+                    toolBar: .red,
+                    primary: .red,
+                    secondary: .red,
+                    placeholder: .red,
+                    disabled: .red,
+                    error: .red)),
+            font: TemplateFont(
+                navigationBar: UIFont(),
+                toolBar: UIFont(),
+                primary: UIFont(),
+                secondary: UIFont(),
+                placeholder: UIFont(),
+                disabled: UIFont(),
+                error: UIFont()))
 
+        MGTemplate.setup(assets: assets)
+
+        view.backgroundColor = MGTemplate.color.view
+
+//        MGTemplate.color.view.primary.view
+//        MGTemplate.color.content.primary.label
+        
         let size = 230
         imageView0.image = UIImage(icon: .ionicons(IoniconsType.androidHome), size: CGSize(width: size, height: size), textColor: .white, backgroundColor: .clear)
         imageView1.image = UIImage(icon: .ionicons(IoniconsType.alert), size: CGSize(width: size, height: size), textColor: .white, backgroundColor: .clear)

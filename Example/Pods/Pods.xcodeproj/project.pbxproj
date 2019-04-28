@@ -39,6 +39,7 @@
 		A22B4CC7A8F83D50979C0A5F8DACA660 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A18E7C16792829108424DE9846F7E332 /* Roboto-Bold.ttf */; };
 		A58AF3B4FE2DDA1DDC85AAD75C0F2CB4 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF85C4C77A8C2D6604C03511B9DB40E0 /* Roboto-BoldItalic.ttf */; };
 		A86FEC1EC338DE2324C989C7A02DEAF2 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3949FB67556CF9B6DB8ECC6FC40EEA19 /* MaterialIcons.ttf */; };
+		A91B6CD82275AF3C001C811E /* MGTemplateAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CD72275AF3C001C811E /* MGTemplateAssets.swift */; };
 		AFC0194A0112B1935C50E1A7E292C2B5 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1621C4FBC71F50C60CE9437538EB1C64 /* StringExtension.swift */; };
 		AFD87375FA7C9EEDCF755325A3D5090F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957F2A4939714A67E9711A00A21A839B /* Foundation.framework */; };
 		B4412EA494718450B19076898C107A3C /* HEXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = AAEC5CA7190C6CD6D855C65C1B32F446 /* HEXColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -159,6 +160,7 @@
 		A18E7C16792829108424DE9846F7E332 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "MGTemplateKit/Assets/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		A5055EBD0C203FE3BA053C6C38610A0D /* Data+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data+New.swift"; sourceTree = "<group>"; };
 		A911A98EAACD5ADAC3DDB40B00365E6C /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91B6CD72275AF3C001C811E /* MGTemplateAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MGTemplateAssets.swift; path = MGTemplateKit/Classes/MGTemplateAssets.swift; sourceTree = "<group>"; };
 		AAEC5CA7190C6CD6D855C65C1B32F446 /* HEXColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HEXColor.h; path = HEXColor/HEXColor.h; sourceTree = "<group>"; };
 		AEDFE273FA92C24B6ECBFC0DBDAD0E8F /* Pods-MGTemplateKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGTemplateKit_Example.modulemap"; sourceTree = "<group>"; };
 		B16AD8832830ABCFF85CA84974075FDB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "MGTemplateKit/Assets/Roboto-Regular.ttf"; sourceTree = "<group>"; };
@@ -352,6 +354,7 @@
 			isa = PBXGroup;
 			children = (
 				5BBC79E62D13200A78235ACBFE1602C7 /* MGTemplate.swift */,
+				A91B6CD72275AF3C001C811E /* MGTemplateAssets.swift */,
 				7A3A2BF616E4F9497809503EB4565125 /* FontAwesome.swift */,
 				F36F0BDA3CAC6F3B7BAD71FED9E21825 /* FontLoader.swift */,
 				CCCD189E9E5708927CAD26CFCA642675 /* Ionicons.swift */,
@@ -688,6 +691,7 @@
 				7A7D3EBAAA8E3B3BBFCD47D2877DA62D /* DateFormatter+New.swift in Sources */,
 				D27F9C23009676CB90AFB2E0C7FB3122 /* FontAwesome.swift in Sources */,
 				516D6B0055683BFBB1B2507336930CB7 /* FontLoader.swift in Sources */,
+				A91B6CD82275AF3C001C811E /* MGTemplateAssets.swift in Sources */,
 				24F609D9CE928C249C90CB80D1536626 /* Ionicons.swift in Sources */,
 				8960F1C004C4B453C9A2E037D00DE636 /* MaterialDesignIcons.swift in Sources */,
 				DC1B938D892DE47CC85C3B069337A81E /* MGTemplate.swift in Sources */,
