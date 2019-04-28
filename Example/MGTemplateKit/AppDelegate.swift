@@ -19,6 +19,7 @@ struct TemplateColor: MGTemplateColor {
     var view: UIColor
     var navigationBar: UIColor
     var toolBar: UIColor
+    var sideBar: UIColor
     var scrollView: UIColor
     var tableView: UIColor
     var tableViewCell: UIColor
@@ -69,6 +70,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 view: .red,
                 navigationBar: .red,
                 toolBar: .red,
+                sideBar: .red,
                 scrollView: .red,
                 tableView: .red,
                 tableViewCell: .red,
