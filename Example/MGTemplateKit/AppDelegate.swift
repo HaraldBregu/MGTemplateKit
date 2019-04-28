@@ -34,6 +34,7 @@ struct TemplateColor: MGTemplateColor {
     var collectionViewFooter: UIColor
     var collectionViewHeaderSection: UIColor
     var collectionViewFooterSection: UIColor
+    var activityIndicator: UIColor
     var text: MGTemplateColorText
 }
 
@@ -86,6 +87,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 collectionViewFooter: .red,
                 collectionViewHeaderSection: .red,
                 collectionViewFooterSection: .red,
+                activityIndicator: .red,
                 text: TemplateColorText(
                     navigationBar: .red,
                     toolBar: .red,

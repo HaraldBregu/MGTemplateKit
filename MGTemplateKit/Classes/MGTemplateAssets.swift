@@ -49,6 +49,7 @@ public protocol MGTemplateColor {
     var collectionViewFooter: UIColor { get set }
     var collectionViewHeaderSection: UIColor { get set }
     var collectionViewFooterSection: UIColor { get set }
+    var activityIndicator: UIColor { get set }
     var text: MGTemplateColorText { get set }
 }
 
