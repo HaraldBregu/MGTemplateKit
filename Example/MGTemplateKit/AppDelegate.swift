@@ -23,6 +23,7 @@ struct TemplateColor: MGTemplateColor {
     var scrollView: UIColor
     var tableView: UIColor
     var tableViewCell: UIColor
+    var tableViewSeparator: UIColor
     var tableViewHeader: UIColor
     var tableViewFooter: UIColor
     var tableViewHeaderSection: UIColor
@@ -74,6 +75,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 scrollView: .red,
                 tableView: .red,
                 tableViewCell: .red,
+                tableViewSeparator: .red,
                 tableViewHeader: .red,
                 tableViewFooter: .red,
                 tableViewHeaderSection: .red,

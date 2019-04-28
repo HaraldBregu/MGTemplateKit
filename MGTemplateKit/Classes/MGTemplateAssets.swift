@@ -38,6 +38,7 @@ public protocol MGTemplateColor {
     var scrollView: UIColor { get set }
     var tableView: UIColor { get set }
     var tableViewCell: UIColor { get set }
+    var tableViewSeparator: UIColor { get set }
     var tableViewHeader: UIColor { get set }
     var tableViewFooter: UIColor { get set }
     var tableViewHeaderSection: UIColor { get set }
