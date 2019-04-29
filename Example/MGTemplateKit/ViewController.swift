@@ -25,6 +25,7 @@ class ViewController: UIViewController {
                 navigationBar: .red,
                 toolBar: .red,
                 sideBar: .red,
+                searchBar: .red,
                 scrollView: .red,
                 tableView: .red,
                 tableViewCell: .red,
