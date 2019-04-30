@@ -68,7 +68,7 @@ class ViewController: UIViewController {
         let size = 230
         imageView0.image = UIImage(icon: .ionicons(IoniconsType.androidHome), size: CGSize(width: size, height: size), textColor: .white, backgroundColor: .clear)
         imageView1.image = UIImage(icon: .ionicons(IoniconsType.alert), size: CGSize(width: size, height: size), textColor: .white, backgroundColor: .clear)
-        imageView2.image = UIImage(icon: .ionicons(IoniconsType.androidAlert), size: CGSize(width: size, height: size), textColor: .white, backgroundColor: .clear)
+        imageView2.image = UIImage(icon: .openIconic(.chevronRight), size: CGSize(width: size, height: size), textColor: .white)
 
         label.font = MGTemplate.Font(size: 43).black
         label.textColor = .white

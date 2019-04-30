@@ -40,6 +40,7 @@
 		A58AF3B4FE2DDA1DDC85AAD75C0F2CB4 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF85C4C77A8C2D6604C03511B9DB40E0 /* Roboto-BoldItalic.ttf */; };
 		A86FEC1EC338DE2324C989C7A02DEAF2 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3949FB67556CF9B6DB8ECC6FC40EEA19 /* MaterialIcons.ttf */; };
 		A91B6CD82275AF3C001C811E /* MGTemplateAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CD72275AF3C001C811E /* MGTemplateAssets.swift */; };
+		A97296892278499400E1DDE7 /* open-iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A97296882278498600E1DDE7 /* open-iconic.ttf */; };
 		AFC0194A0112B1935C50E1A7E292C2B5 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1621C4FBC71F50C60CE9437538EB1C64 /* StringExtension.swift */; };
 		AFD87375FA7C9EEDCF755325A3D5090F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957F2A4939714A67E9711A00A21A839B /* Foundation.framework */; };
 		B4412EA494718450B19076898C107A3C /* HEXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = AAEC5CA7190C6CD6D855C65C1B32F446 /* HEXColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -161,6 +162,7 @@
 		A5055EBD0C203FE3BA053C6C38610A0D /* Data+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data+New.swift"; sourceTree = "<group>"; };
 		A911A98EAACD5ADAC3DDB40B00365E6C /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91B6CD72275AF3C001C811E /* MGTemplateAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MGTemplateAssets.swift; path = MGTemplateKit/Classes/MGTemplateAssets.swift; sourceTree = "<group>"; };
+		A97296882278498600E1DDE7 /* open-iconic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-iconic.ttf"; sourceTree = "<group>"; };
 		AAEC5CA7190C6CD6D855C65C1B32F446 /* HEXColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HEXColor.h; path = HEXColor/HEXColor.h; sourceTree = "<group>"; };
 		AEDFE273FA92C24B6ECBFC0DBDAD0E8F /* Pods-MGTemplateKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGTemplateKit_Example.modulemap"; sourceTree = "<group>"; };
 		B16AD8832830ABCFF85CA84974075FDB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "MGTemplateKit/Assets/Roboto-Regular.ttf"; sourceTree = "<group>"; };
@@ -409,6 +411,7 @@
 				F33804C112FF6738AC58557D38127A20 /* FontAwesomeRegular.ttf */,
 				B5A6E92D44B27F892341B6669CDF186F /* FontAwesomeSolid.ttf */,
 				743932BF82BD2C778D05643F047ACD05 /* Ionicons.ttf */,
+				A97296882278498600E1DDE7 /* open-iconic.ttf */,
 				3949FB67556CF9B6DB8ECC6FC40EEA19 /* MaterialIcons.ttf */,
 				D1180B5E675B46AC71485FF28D41A3BA /* Roboto-Black.ttf */,
 				FC73B943D2460EB62495B6969CF9CDB9 /* Roboto-BlackItalic.ttf */,
@@ -623,6 +626,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0F8346B166340A1275FDF149C51AA77 /* MGTemplateKit.bundle in Resources */,
+				A97296892278499400E1DDE7 /* open-iconic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
