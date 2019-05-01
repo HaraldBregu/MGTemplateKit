@@ -10,66 +10,13 @@ import UIKit
 import MGTemplateKit
 
 
-struct TemplateAssets: MGTemplateAssets {
-    var color: MGTemplateColor
-    var font: MGTemplateFont
-}
-
-struct TemplateColor: MGTemplateColor {
-    var view: UIColor
-    var navigationBar: UIColor
-    var toolBar: UIColor
-    var sideBar: UIColor
-    var searchBar: UIColor
-    var scrollView: UIColor
-    var tableView: UIColor
-    var tableViewCell: UIColor
-    var tableViewSeparator: UIColor
-    var tableViewHeader: UIColor
-    var tableViewFooter: UIColor
-    var tableViewHeaderSection: UIColor
-    var tableViewFooterSection: UIColor
-    var collectionView: UIColor
-    var collectionViewCell: UIColor
-    var collectionViewHeader: UIColor
-    var collectionViewFooter: UIColor
-    var collectionViewHeaderSection: UIColor
-    var collectionViewFooterSection: UIColor
-    var activityIndicator: UIColor
-    var text: MGTemplateColorText
-}
-
-struct TemplateColorText: MGTemplateColorText {
-    var navigationBar: UIColor
-    var toolBar: UIColor
-    var primary: UIColor
-    var secondary: UIColor
-    var placeholder: UIColor
-    var disabled: UIColor
-    var error: UIColor
-}
-
-struct TemplateFont: MGTemplateFont {
-    var navigationBar: UIFont
-    var toolBar: UIFont
-    var primary: UIFont
-    var secondary: UIFont
-    var placeholder: UIFont
-    var disabled: UIFont
-    var error: UIFont
-}
-
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        
-        let assets = TemplateAssets(
+        let asset = TemplateAssets(
             color: TemplateColor(
                 view: .red,
                 navigationBar: .red,
@@ -108,7 +55,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 disabled: UIFont(),
                 error: UIFont()))
         
-        MGTemplate.setup(assets: assets)
+//        let font = Font(
+//            thin: "Roboto-Thin",
+//            thinItalic: "Roboto-ThinItalic",
+//            light: "Roboto-Light",
+//            lightItalic: "Roboto-LightItalic",
+//            regular: "Roboto-Regular",
+//            regularItalic: "Roboto-Italic",
+//            medium: "Roboto-Medium",
+//            mediumItalic: "Roboto-MediumItalic",
+//            bold: "Roboto-Bold",
+//            boldItalic: "Roboto-BoldItalic",
+//            black: "Roboto-Black",
+//            blackItalic: "Roboto-BlackItalic")
+
+        MGTemplate.setup(asset: asset)
+        
+
+        
+        
+//        MGFont.name = MGFontName
+//        print(MGFont.name)
+        
+//        MGTemplate.use(font: .roboto)
         
 //        MGTemplate.assets.color.view.collectionView = .red
 //        MGTemplate.assets.color.text.primary = .red
@@ -235,6 +204,70 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+}
 
+
+struct TemplateAssets: MGAsset {
+    var color: MGTemplateColor
+    var font: MGTemplateFont
+}
+
+struct TemplateColor: MGTemplateColor {
+    var view: UIColor
+    var navigationBar: UIColor
+    var toolBar: UIColor
+    var sideBar: UIColor
+    var searchBar: UIColor
+    var scrollView: UIColor
+    var tableView: UIColor
+    var tableViewCell: UIColor
+    var tableViewSeparator: UIColor
+    var tableViewHeader: UIColor
+    var tableViewFooter: UIColor
+    var tableViewHeaderSection: UIColor
+    var tableViewFooterSection: UIColor
+    var collectionView: UIColor
+    var collectionViewCell: UIColor
+    var collectionViewHeader: UIColor
+    var collectionViewFooter: UIColor
+    var collectionViewHeaderSection: UIColor
+    var collectionViewFooterSection: UIColor
+    var activityIndicator: UIColor
+    var text: MGTemplateColorText
+}
+
+struct TemplateColorText: MGTemplateColorText {
+    var navigationBar: UIColor
+    var toolBar: UIColor
+    var primary: UIColor
+    var secondary: UIColor
+    var placeholder: UIColor
+    var disabled: UIColor
+    var error: UIColor
+}
+
+struct TemplateFont: MGTemplateFont {
+    var navigationBar: UIFont?
+    var toolBar: UIFont?
+    var primary: UIFont?
+    var secondary: UIFont?
+    var placeholder: UIFont?
+    var disabled: UIFont?
+    var error: UIFont?
+}
+
+struct Font: MGFont {
+    var thin: String
+    var thinItalic: String
+    var light: String
+    var lightItalic: String
+    var regular: String
+    var regularItalic: String
+    var medium: String
+    var mediumItalic: String
+    var bold: String
+    var boldItalic: String
+    var black: String
+    var blackItalic: String
 }
 

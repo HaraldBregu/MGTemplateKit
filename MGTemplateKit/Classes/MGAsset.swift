@@ -1,5 +1,5 @@
 // 
-//  MGTemplateAssets.swift
+//  MGAsset.swift
 //
 //  Created by harald bregu on 28/04/2019.
 //  Copyright © 2019 Dream Building Company. All rights reserved.
@@ -25,7 +25,7 @@
 
 import Foundation
 
-public protocol MGTemplateAssets {
+public protocol MGAsset {
     var color: MGTemplateColor { get set }
     var font: MGTemplateFont { get set }
 }
@@ -55,13 +55,13 @@ public protocol MGTemplateColor {
 }
 
 public protocol MGTemplateFont {
-    var navigationBar: UIFont { get set }
-    var toolBar: UIFont { get set }
-    var primary: UIFont { get set }
-    var secondary: UIFont { get set }
-    var placeholder: UIFont { get set }
-    var disabled: UIFont { get set }
-    var error: UIFont { get set }
+    var navigationBar: UIFont? { get set }
+    var toolBar: UIFont? { get set }
+    var primary: UIFont? { get set }
+    var secondary: UIFont? { get set }
+    var placeholder: UIFont? { get set }
+    var disabled: UIFont? { get set }
+    var error: UIFont? { get set }
 }
 
 public protocol MGTemplateColorText {

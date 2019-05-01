@@ -10,7 +10,6 @@
 		05A658E821DEE16DBDBA2A22DD6462F3 /* UIControl+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557F8F638919DC393766BC548FD75E2E /* UIControl+New.swift */; };
 		0DF55182E06840D3DE93BED39FC623F5 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B16AD8832830ABCFF85CA84974075FDB /* Roboto-Regular.ttf */; };
 		0F57755F3B40038A180890ECBC0A44BE /* FontBlaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8B2B1D1259F8E83FA2814A04108824 /* FontBlaster.framework */; };
-		24F609D9CE928C249C90CB80D1536626 /* Ionicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCD189E9E5708927CAD26CFCA642675 /* Ionicons.swift */; };
 		27024F716CD527219577524C709E1AB9 /* FontAwesomeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F33804C112FF6738AC58557D38127A20 /* FontAwesomeRegular.ttf */; };
 		400DFA37088F748C799770968FF25044 /* Pods-MGTemplateKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E710C1E2331BC49D093A76C09012A2B /* Pods-MGTemplateKit_Example-dummy.m */; };
 		40FFBFC166A8C29F5636DC5A0D734F51 /* UIGestureRecognizer+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A92A7F1099EB29A983F4A8767B74CA1 /* UIGestureRecognizer+New.swift */; };
@@ -19,8 +18,6 @@
 		4AE3ACAA6933BCA313D70155828F09C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957F2A4939714A67E9711A00A21A839B /* Foundation.framework */; };
 		4AF1C5C17E281B4F21741FA7AD232732 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC73B943D2460EB62495B6969CF9CDB9 /* Roboto-BlackItalic.ttf */; };
 		4BDC1B69CB50FF98BC7AF825EAC19E56 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1180B5E675B46AC71485FF28D41A3BA /* Roboto-Black.ttf */; };
-		4E9216DC3E138648FE68C9B1EF4A74A6 /* SwiftIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241844C61FCB86545D2DA13F3909734F /* SwiftIcons.swift */; };
-		516D6B0055683BFBB1B2507336930CB7 /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36F0BDA3CAC6F3B7BAD71FED9E21825 /* FontLoader.swift */; };
 		54521F9D2059CA50322C13AE53A22465 /* Pods-MGTemplateKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C02956EBAF1278FEB833C5FF652105 /* Pods-MGTemplateKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		546C34CBA59B7087909B969D327A5F79 /* FontBlaster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E8E1903195A0C480E0FB6A60A181A /* FontBlaster-dummy.m */; };
 		57551CC1B893D822BBFD280C6D79AFE8 /* FontBlaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472555AD64B7014F2AF46586E19B0DCA /* FontBlaster.swift */; };
@@ -32,15 +29,21 @@
 		7A7D3EBAAA8E3B3BBFCD47D2877DA62D /* DateFormatter+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9876D6EDBDF56FE52F19C4F0E8B7D1 /* DateFormatter+New.swift */; };
 		83BCF48A6773067B45544B8C3628F90C /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 696751C55F6E2A46D98CB7D842E11D3B /* Roboto-Thin.ttf */; };
 		83BE83D7CD5C475BFF65E6C14B69634B /* UIImage+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F8931E33E3E9BE441E9AB790871C8 /* UIImage+New.swift */; };
-		8960F1C004C4B453C9A2E037D00DE636 /* MaterialDesignIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676AE2C90D2E29CE07ADF9D465CB9002 /* MaterialDesignIcons.swift */; };
 		8FDC079F94B3BB87C9D6D16ECFB52779 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2544C755159E0E440BA36E86C782D95E /* Roboto-LightItalic.ttf */; };
 		9905A00FE80D6011EBAE4D82D26F9562 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 196F9EF0921FB8C6B2A43407DEBCA7F9 /* Roboto-ThinItalic.ttf */; };
 		9E0DB9E6411A394B5F45BCB3538602AC /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E4B614A959B2F6D0D43C835D70C63DF /* Roboto-Medium.ttf */; };
 		A22B4CC7A8F83D50979C0A5F8DACA660 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A18E7C16792829108424DE9846F7E332 /* Roboto-Bold.ttf */; };
 		A58AF3B4FE2DDA1DDC85AAD75C0F2CB4 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF85C4C77A8C2D6604C03511B9DB40E0 /* Roboto-BoldItalic.ttf */; };
 		A86FEC1EC338DE2324C989C7A02DEAF2 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3949FB67556CF9B6DB8ECC6FC40EEA19 /* MaterialIcons.ttf */; };
-		A91B6CD82275AF3C001C811E /* MGTemplateAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CD72275AF3C001C811E /* MGTemplateAssets.swift */; };
+		A91B6CD82275AF3C001C811E /* MGAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CD72275AF3C001C811E /* MGAsset.swift */; };
 		A972968C22784D2D00E1DDE7 /* open-iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A972968B22784D2D00E1DDE7 /* open-iconic.ttf */; };
+		A9831C822278C82B00C8145A /* MGFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9831C812278C82B00C8145A /* MGFont.swift */; };
+		A9831C8D2278D8B400C8145A /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9831C872278D8B400C8145A /* FontLoader.swift */; };
+		A9831C8E2278D8B400C8145A /* VaadinIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9831C882278D8B400C8145A /* VaadinIcons.swift */; };
+		A9831C8F2278D8B400C8145A /* Ionicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9831C892278D8B400C8145A /* Ionicons.swift */; };
+		A9831C902278D8B400C8145A /* MaterialDesignIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9831C8A2278D8B400C8145A /* MaterialDesignIcons.swift */; };
+		A9831C912278D8B400C8145A /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9831C8B2278D8B400C8145A /* FontAwesome.swift */; };
+		A9831C922278D8B400C8145A /* SwiftIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9831C8C2278D8B400C8145A /* SwiftIcons.swift */; };
 		AFC0194A0112B1935C50E1A7E292C2B5 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1621C4FBC71F50C60CE9437538EB1C64 /* StringExtension.swift */; };
 		AFD87375FA7C9EEDCF755325A3D5090F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957F2A4939714A67E9711A00A21A839B /* Foundation.framework */; };
 		B4412EA494718450B19076898C107A3C /* HEXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = AAEC5CA7190C6CD6D855C65C1B32F446 /* HEXColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,10 +51,8 @@
 		BB1E0F041A818F5C46CF70F831DFDD9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F19325EECFB4AE7977D4EE9B6CEFD2F /* UIKit.framework */; };
 		C0F8346B166340A1275FDF149C51AA77 /* MGTemplateKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E59019D6FF3C2FBCEA869E44E0EDB64 /* MGTemplateKit.bundle */; };
 		C6C6C01534B206949C07505E176DD168 /* FontAwesomeSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5A6E92D44B27F892341B6669CDF186F /* FontAwesomeSolid.ttf */; };
-		C828689BEFFEBDDCD32925B2B257DA89 /* VaadinIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0275F95C35C20736DAAD51201AA529 /* VaadinIcons.swift */; };
 		CA41C3C5F41C70ECC76BA22ED2C2BE2E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E68DDDB770B5C754257C21584B73657 /* UIColorExtension.swift */; };
 		D18E981EDAA44263FDD6376C35586AEA /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E7E8066E5CF224DE43BCD36B66FF0CB /* FontAwesome.ttf */; };
-		D27F9C23009676CB90AFB2E0C7FB3122 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A2BF616E4F9497809503EB4565125 /* FontAwesome.swift */; };
 		D99B6968ABB8F3EF2EFE439F196F0862 /* UIColor_Hex_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3399212C37957DE64C93E7510B1427E2 /* UIColor_Hex_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB66973C64517F8F3723FE1E5745A55D /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFCABDC23D93D15CA032C5C27FB1B064 /* Roboto-Light.ttf */; };
 		DC1B938D892DE47CC85C3B069337A81E /* MGTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC79E62D13200A78235ACBFE1602C7 /* MGTemplate.swift */; };
@@ -119,11 +120,9 @@
 		1E68DDDB770B5C754257C21584B73657 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = HEXColor/UIColorExtension.swift; sourceTree = "<group>"; };
 		20329D51C774ABD3A05D20862EAFB24A /* MGTemplateKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGTemplateKit-prefix.pch"; sourceTree = "<group>"; };
 		241667547BA614572935DC36475CE471 /* Pods-MGTemplateKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGTemplateKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		241844C61FCB86545D2DA13F3909734F /* SwiftIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIcons.swift; path = MGTemplateKit/Classes/SwiftIcons.swift; sourceTree = "<group>"; };
 		2544C755159E0E440BA36E86C782D95E /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-LightItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
 		2D7E8E1903195A0C480E0FB6A60A181A /* FontBlaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontBlaster-dummy.m"; sourceTree = "<group>"; };
 		2E4B614A959B2F6D0D43C835D70C63DF /* Roboto-Medium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "MGTemplateKit/Assets/Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		2F0275F95C35C20736DAAD51201AA529 /* VaadinIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VaadinIcons.swift; path = MGTemplateKit/Classes/VaadinIcons.swift; sourceTree = "<group>"; };
 		2F19325EECFB4AE7977D4EE9B6CEFD2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2F49DAA04331864A0946052F9E96CDF7 /* MGTemplateKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MGTemplateKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3399212C37957DE64C93E7510B1427E2 /* UIColor_Hex_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-umbrella.h"; sourceTree = "<group>"; };
@@ -143,10 +142,8 @@
 		5BBC79E62D13200A78235ACBFE1602C7 /* MGTemplate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGTemplate.swift; path = MGTemplateKit/Classes/MGTemplate.swift; sourceTree = "<group>"; };
 		5E710C1E2331BC49D093A76C09012A2B /* Pods-MGTemplateKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGTemplateKit_Example-dummy.m"; sourceTree = "<group>"; };
 		61ECA2A45117D486DEC27EC8C1F5D50E /* UIColorInputError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorInputError.swift; path = HEXColor/UIColorInputError.swift; sourceTree = "<group>"; };
-		676AE2C90D2E29CE07ADF9D465CB9002 /* MaterialDesignIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialDesignIcons.swift; path = MGTemplateKit/Classes/MaterialDesignIcons.swift; sourceTree = "<group>"; };
 		696751C55F6E2A46D98CB7D842E11D3B /* Roboto-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "MGTemplateKit/Assets/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		743932BF82BD2C778D05643F047ACD05 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Ionicons.ttf; path = MGTemplateKit/Assets/Ionicons.ttf; sourceTree = "<group>"; };
-		7A3A2BF616E4F9497809503EB4565125 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = MGTemplateKit/Classes/FontAwesome.swift; sourceTree = "<group>"; };
 		7E8B2B1D1259F8E83FA2814A04108824 /* FontBlaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontBlaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8620D6E85717AD1033EA874334E87554 /* UIColor_Hex_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor_Hex_Swift-dummy.m"; sourceTree = "<group>"; };
 		87E00A84433A0301F5A5CFA34F9E8C68 /* UIColor_Hex_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIColor_Hex_Swift.modulemap; sourceTree = "<group>"; };
@@ -161,8 +158,15 @@
 		A18E7C16792829108424DE9846F7E332 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "MGTemplateKit/Assets/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		A5055EBD0C203FE3BA053C6C38610A0D /* Data+New.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data+New.swift"; sourceTree = "<group>"; };
 		A911A98EAACD5ADAC3DDB40B00365E6C /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A91B6CD72275AF3C001C811E /* MGTemplateAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MGTemplateAssets.swift; path = MGTemplateKit/Classes/MGTemplateAssets.swift; sourceTree = "<group>"; };
+		A91B6CD72275AF3C001C811E /* MGAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MGAsset.swift; path = MGTemplateKit/Classes/MGAsset.swift; sourceTree = "<group>"; };
 		A972968B22784D2D00E1DDE7 /* open-iconic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "open-iconic.ttf"; path = "MGTemplateKit/Assets/open-iconic.ttf"; sourceTree = "<group>"; };
+		A9831C812278C82B00C8145A /* MGFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MGFont.swift; path = MGTemplateKit/Classes/MGFont.swift; sourceTree = "<group>"; };
+		A9831C872278D8B400C8145A /* FontLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontLoader.swift; sourceTree = "<group>"; };
+		A9831C882278D8B400C8145A /* VaadinIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaadinIcons.swift; sourceTree = "<group>"; };
+		A9831C892278D8B400C8145A /* Ionicons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ionicons.swift; sourceTree = "<group>"; };
+		A9831C8A2278D8B400C8145A /* MaterialDesignIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialDesignIcons.swift; sourceTree = "<group>"; };
+		A9831C8B2278D8B400C8145A /* FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesome.swift; sourceTree = "<group>"; };
+		A9831C8C2278D8B400C8145A /* SwiftIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIcons.swift; sourceTree = "<group>"; };
 		AAEC5CA7190C6CD6D855C65C1B32F446 /* HEXColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HEXColor.h; path = HEXColor/HEXColor.h; sourceTree = "<group>"; };
 		AEDFE273FA92C24B6ECBFC0DBDAD0E8F /* Pods-MGTemplateKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGTemplateKit_Example.modulemap"; sourceTree = "<group>"; };
 		B16AD8832830ABCFF85CA84974075FDB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "MGTemplateKit/Assets/Roboto-Regular.ttf"; sourceTree = "<group>"; };
@@ -173,7 +177,6 @@
 		C05A68E422F9CB4AED66CA3AB9C2C367 /* Pods_MGTemplateKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGTemplateKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C168A3FFF0280BACCF213A58E10B813F /* Pods-MGTemplateKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGTemplateKit_Example-Info.plist"; sourceTree = "<group>"; };
 		C4F8CD8F3FA1CAAF5E3530427A24078F /* ResourceBundle-MGTemplateKit-MGTemplateKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MGTemplateKit-MGTemplateKit-Info.plist"; sourceTree = "<group>"; };
-		CCCD189E9E5708927CAD26CFCA642675 /* Ionicons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ionicons.swift; path = MGTemplateKit/Classes/Ionicons.swift; sourceTree = "<group>"; };
 		CEF78C8EDDCADD67F079AB4FF048C2C1 /* FontBlaster-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FontBlaster-Info.plist"; sourceTree = "<group>"; };
 		CFE614A7A0695F22B0C61DF0736FBBDC /* MGTemplateKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGTemplateKit-Info.plist"; sourceTree = "<group>"; };
 		D1180B5E675B46AC71485FF28D41A3BA /* Roboto-Black.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "MGTemplateKit/Assets/Roboto-Black.ttf"; sourceTree = "<group>"; };
@@ -184,7 +187,6 @@
 		EC812965C473CF057087A294676738A8 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Italic.ttf"; path = "MGTemplateKit/Assets/Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		EFCABDC23D93D15CA032C5C27FB1B064 /* Roboto-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "MGTemplateKit/Assets/Roboto-Light.ttf"; sourceTree = "<group>"; };
 		F33804C112FF6738AC58557D38127A20 /* FontAwesomeRegular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesomeRegular.ttf; path = MGTemplateKit/Assets/FontAwesomeRegular.ttf; sourceTree = "<group>"; };
-		F36F0BDA3CAC6F3B7BAD71FED9E21825 /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = MGTemplateKit/Classes/FontLoader.swift; sourceTree = "<group>"; };
 		F49EAC45260CA90D87DAE554DBA6BC78 /* Pods-MGTemplateKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGTemplateKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FA71CC9CE833DD9A5E2876A5DD034AFB /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-MediumItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
 		FC73B943D2460EB62495B6969CF9CDB9 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-BlackItalic.ttf"; path = "MGTemplateKit/Assets/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
@@ -356,13 +358,9 @@
 			isa = PBXGroup;
 			children = (
 				5BBC79E62D13200A78235ACBFE1602C7 /* MGTemplate.swift */,
-				A91B6CD72275AF3C001C811E /* MGTemplateAssets.swift */,
-				7A3A2BF616E4F9497809503EB4565125 /* FontAwesome.swift */,
-				F36F0BDA3CAC6F3B7BAD71FED9E21825 /* FontLoader.swift */,
-				CCCD189E9E5708927CAD26CFCA642675 /* Ionicons.swift */,
-				676AE2C90D2E29CE07ADF9D465CB9002 /* MaterialDesignIcons.swift */,
-				241844C61FCB86545D2DA13F3909734F /* SwiftIcons.swift */,
-				2F0275F95C35C20736DAAD51201AA529 /* VaadinIcons.swift */,
+				A91B6CD72275AF3C001C811E /* MGAsset.swift */,
+				A9831C812278C82B00C8145A /* MGFont.swift */,
+				A9831C862278D8B400C8145A /* FontIcon */,
 				0A34BF4CCC1B0A003445AFD754F35BC5 /* Extensions */,
 				D3FC7A5CE2D5EF7F66903FB5525B305A /* Pod */,
 				DDD1F5F9549C62DEB345966D715BA3F8 /* Resources */,
@@ -379,6 +377,20 @@
 				2F19325EECFB4AE7977D4EE9B6CEFD2F /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		A9831C862278D8B400C8145A /* FontIcon */ = {
+			isa = PBXGroup;
+			children = (
+				A9831C872278D8B400C8145A /* FontLoader.swift */,
+				A9831C882278D8B400C8145A /* VaadinIcons.swift */,
+				A9831C892278D8B400C8145A /* Ionicons.swift */,
+				A9831C8A2278D8B400C8145A /* MaterialDesignIcons.swift */,
+				A9831C8B2278D8B400C8145A /* FontAwesome.swift */,
+				A9831C8C2278D8B400C8145A /* SwiftIcons.swift */,
+			);
+			name = FontIcon;
+			path = MGTemplateKit/Classes/FontIcon;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -693,19 +705,20 @@
 			files = (
 				B66D5B9E8B12C7A915DD4246E3CFA892 /* Data+New.swift in Sources */,
 				7A7D3EBAAA8E3B3BBFCD47D2877DA62D /* DateFormatter+New.swift in Sources */,
-				D27F9C23009676CB90AFB2E0C7FB3122 /* FontAwesome.swift in Sources */,
-				516D6B0055683BFBB1B2507336930CB7 /* FontLoader.swift in Sources */,
-				A91B6CD82275AF3C001C811E /* MGTemplateAssets.swift in Sources */,
-				24F609D9CE928C249C90CB80D1536626 /* Ionicons.swift in Sources */,
-				8960F1C004C4B453C9A2E037D00DE636 /* MaterialDesignIcons.swift in Sources */,
+				A91B6CD82275AF3C001C811E /* MGAsset.swift in Sources */,
+				A9831C8F2278D8B400C8145A /* Ionicons.swift in Sources */,
+				A9831C922278D8B400C8145A /* SwiftIcons.swift in Sources */,
+				A9831C8E2278D8B400C8145A /* VaadinIcons.swift in Sources */,
+				A9831C902278D8B400C8145A /* MaterialDesignIcons.swift in Sources */,
+				A9831C8D2278D8B400C8145A /* FontLoader.swift in Sources */,
 				DC1B938D892DE47CC85C3B069337A81E /* MGTemplate.swift in Sources */,
+				A9831C822278C82B00C8145A /* MGFont.swift in Sources */,
 				E90279CDB593B290B5D9B6FF7EB62C8E /* MGTemplateKit-dummy.m in Sources */,
+				A9831C912278D8B400C8145A /* FontAwesome.swift in Sources */,
 				E9C0A1E33D7252F91FBC40DE4B8B3712 /* String+New.swift in Sources */,
-				4E9216DC3E138648FE68C9B1EF4A74A6 /* SwiftIcons.swift in Sources */,
 				05A658E821DEE16DBDBA2A22DD6462F3 /* UIControl+New.swift in Sources */,
 				40FFBFC166A8C29F5636DC5A0D734F51 /* UIGestureRecognizer+New.swift in Sources */,
 				83BE83D7CD5C475BFF65E6C14B69634B /* UIImage+New.swift in Sources */,
-				C828689BEFFEBDDCD32925B2B257DA89 /* VaadinIcons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
