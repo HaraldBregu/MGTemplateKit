@@ -27,103 +27,12 @@ import UIKit
 import UIColor_Hex_Swift
 import FontBlaster
 
+
 public class MGTemplate {
     public static var asset: MGAsset!
-//    public static var font: MGFont!
     
     public static func setup(asset: MGAsset) {
         FontBlaster.blast(bundle: Bundle(for: MGTemplate.self))
         MGTemplate.asset = asset
-//        MGTemplate.font = font
     }
-
-//    public static func use(font: MGTemplateFont) {
-//
-//    }
-//
-//    public static func use(palettes: UIFont) {
-//
-//    }
-
-//    private static let darkColor = UIColor("#15161D")
-//    private static let contentColor = UIColor("#F3F7F8")
-//
-//    public struct NavigationBar {
-//        public static let backgroundColor = darkColor
-//        public static let tintColor = contentColor
-//    }
-//
-//    public struct View {
-//        public static let backgroundColor = darkColor
-//        public static let tintColor = contentColor
-//    }
-
-//    public class Font {
-//        private var size:CGFloat!
-//        private var weight:String!
-//
-//        public init(size: CGFloat) {
-//            self.size = size
-//        }
-//
-//        public var medium:UIFont? {
-//            weight = "Medium"
-//            return UIFont(name: "Roboto" + "-" + weight, size: size)
-//        }
-//
-//        public var light:UIFont? {
-//            weight = "Light"
-//            return UIFont(name: "Roboto" + "-" + weight, size: size)
-//        }
-//
-//        public var regular:UIFont? {
-//            weight = "Regular"
-//            return UIFont(name: "Roboto" + "-" + weight, size: size)
-//        }
-//
-//        public var mediumItalic:UIFont? {
-//            weight = "MediumItalic"
-//            return UIFont(name: "Roboto" + "-" + weight, size: size)
-//        }
-//
-//        public var thinItalic:UIFont? {
-//            weight = "ThinItalic"
-//            return UIFont(name: "Roboto" + "-" + weight, size: size)
-//        }
-//
-//        public var boldItalic:UIFont? {
-//            weight = "BoldItalic"
-//            return UIFont(name: "Roboto" + "-" + weight, size: size)
-//        }
-//
-//        public var lightItalic:UIFont? {
-//            weight = "LightItalic"
-//            return UIFont(name: "Roboto" + "-" + weight, size: size)
-//        }
-//
-//        public var italic:UIFont? {
-//            weight = "Italic"
-//            return UIFont(name: "Roboto" + "-" + weight, size: size)
-//        }
-//
-//        public var blackItalic:UIFont? {
-//            weight = "BlackItalic"
-//            return UIFont(name: "Roboto" + "-" + weight, size: size)
-//        }
-//
-//        public var bold:UIFont? {
-//            weight = "Bold"
-//            return UIFont(name: "Roboto" + "-" + weight, size: size)
-//        }
-//
-//        public var thin:UIFont? {
-//            weight = "Thin"
-//            return UIFont(name: "Roboto" + "-" + weight, size: size)
-//        }
-//
-//        public var black:UIFont? {
-//            weight = "Black"
-//            return UIFont(name: "Roboto" + "-" + weight, size: size)
-//        }
-//    }
 }

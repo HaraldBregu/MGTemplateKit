@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Harald Bregu' => 'harald.bregu@gmail.com' }
   s.source           = { :git => 'https://github.com/HaraldBregu/MGTemplateKit.git', :tag => s.version.to_s }
   s.source_files = 'MGTemplateKit/Classes/**/*'
-  s.resource_bundles = { 'MGTemplateKit' => ['MGTemplateKit/Assets/*.ttf'] }
+  s.resource_bundles = { 'MGTemplateKit' => ['MGTemplateKit/Assets/**/*.ttf'] }
   s.dependency 'UIColor_Hex_Swift', '~> 4.2.0'
   s.dependency 'FontBlaster'
   s.swift_version = '4.2'

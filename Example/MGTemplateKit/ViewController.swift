@@ -27,6 +27,7 @@ class ViewController: UIViewController {
 
 //        label.font = MGTemplate.Font(size: 43).black
         label.textColor = .white
+        label.font = MGFont.Roboto.black.size(39)
     }
 
 }

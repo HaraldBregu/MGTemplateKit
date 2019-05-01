@@ -71,7 +71,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         MGTemplate.setup(asset: asset)
         
-
         
         
 //        MGFont.name = MGFontName
@@ -256,18 +255,18 @@ struct TemplateFont: MGTemplateFont {
     var error: UIFont?
 }
 
-struct Font: MGFont {
-    var thin: String
-    var thinItalic: String
-    var light: String
-    var lightItalic: String
-    var regular: String
-    var regularItalic: String
-    var medium: String
-    var mediumItalic: String
-    var bold: String
-    var boldItalic: String
-    var black: String
-    var blackItalic: String
-}
+//struct Font: MGFont {
+//    var thin: String
+//    var thinItalic: String
+//    var light: String
+//    var lightItalic: String
+//    var regular: String
+//    var regularItalic: String
+//    var medium: String
+//    var mediumItalic: String
+//    var bold: String
+//    var boldItalic: String
+//    var black: String
+//    var blackItalic: String
+//}
 

@@ -25,17 +25,22 @@
 
 import Foundation
 
-public protocol MGFont {
-    var thin: String { get set }
-    var thinItalic: String { get set }
-    var light: String { get set }
-    var lightItalic: String { get set }
-    var regular: String { get set }
-    var regularItalic: String { get set }
-    var medium: String { get set }
-    var mediumItalic: String { get set }
-    var bold: String { get set }
-    var boldItalic: String { get set }
-    var black: String { get set }
-    var blackItalic: String { get set }
+public enum MGFont {
+    public enum Roboto: String {
+        case thin = "Roboto-Thin"
+        case thinItalic = "Roboto-ThinItalic"
+        case light = "Roboto-Light"
+        case lightItalic = "Roboto-LightItalic"
+        case regular = "Roboto-Regular"
+        case regularItalic = "Roboto-Italic"
+        case medium = "Roboto-Medium"
+        case mediumItalic = "Roboto-MediumItalic"
+        case bold = "Roboto-Bold"
+        case boldItalic = "Roboto-BoldItalic"
+        case black = "Roboto-Black"
+        case blackItalic = "Roboto-BlackItalic"
+        public func size(_ size: CGFloat) -> UIFont? {
+            return UIFont(name: self.rawValue, size: size)
+        }
+    }
 }
