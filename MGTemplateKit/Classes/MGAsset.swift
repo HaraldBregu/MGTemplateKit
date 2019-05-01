@@ -54,6 +54,16 @@ public protocol MGTemplateColor {
     var text: MGTemplateColorText { get set }
 }
 
+public protocol MGTemplateColorText {
+    var navigationBar: UIColor { get set }
+    var toolBar: UIColor { get set }
+    var primary: UIColor { get set }
+    var secondary: UIColor { get set }
+    var placeholder: UIColor { get set }
+    var disabled: UIColor { get set }
+    var error: UIColor { get set }
+}
+
 public protocol MGTemplateFont {
     var largeTitle: UIFont? { get set }
     var title1: UIFont? { get set }
@@ -66,14 +76,4 @@ public protocol MGTemplateFont {
     var footnote: UIFont? { get set }
     var caption1: UIFont? { get set }
     var caption2: UIFont? { get set }
-}
-
-public protocol MGTemplateColorText {
-    var navigationBar: UIColor { get set }
-    var toolBar: UIColor { get set }
-    var primary: UIColor { get set }
-    var secondary: UIColor { get set }
-    var placeholder: UIColor { get set }
-    var disabled: UIColor { get set }
-    var error: UIColor { get set }
 }
