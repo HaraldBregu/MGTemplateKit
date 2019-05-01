@@ -69,7 +69,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            black: "Roboto-Black",
 //            blackItalic: "Roboto-BlackItalic")
 
-        MGTemplate.setup(asset: asset)
+        MGTemplate.configure()
+        MGTemplate.use(asset: asset)
         
         
         
