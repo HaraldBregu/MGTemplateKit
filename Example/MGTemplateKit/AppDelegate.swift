@@ -47,161 +47,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     disabled: .red,
                     error: .red)),
             font: TemplateFont(
-                navigationBar: UIFont(),
-                toolBar: UIFont(),
-                primary: UIFont(),
-                secondary: UIFont(),
-                placeholder: UIFont(),
-                disabled: UIFont(),
-                error: UIFont()))
+                largeTitle: UIFont(),
+                title1: UIFont(),
+                title2: UIFont(),
+                title3: UIFont(),
+                headline: UIFont(),
+                body: UIFont(),
+                callout: UIFont(),
+                subhead: UIFont(),
+                footnote: UIFont(),
+                caption1: UIFont(),
+                caption2: UIFont()))
         
-//        let font = Font(
-//            thin: "Roboto-Thin",
-//            thinItalic: "Roboto-ThinItalic",
-//            light: "Roboto-Light",
-//            lightItalic: "Roboto-LightItalic",
-//            regular: "Roboto-Regular",
-//            regularItalic: "Roboto-Italic",
-//            medium: "Roboto-Medium",
-//            mediumItalic: "Roboto-MediumItalic",
-//            bold: "Roboto-Bold",
-//            boldItalic: "Roboto-BoldItalic",
-//            black: "Roboto-Black",
-//            blackItalic: "Roboto-BlackItalic")
-
         MGTemplate.configure()
         MGTemplate.use(asset: asset)
-        
-        
-        
-//        MGFont.name = MGFontName
-//        print(MGFont.name)
-        
-//        MGTemplate.use(font: .roboto)
-        
-//        MGTemplate.assets.color.view.collectionView = .red
-//        MGTemplate.assets.color.text.primary = .red
-//        MGTemplate.assets.font.text.navigationBar = UIFont()
-        
-//        let color = TemplateColorData(primary: .red, secondary: .green)
-//        MGTemplate.setup(assets: TemplateAssets(
-//            color: TemplateColor(
-//                view: TemplateColorData(primary: .red, secondary: .green),
-//                navigationBar: color,
-//                toolBar: color,
-//                scrollView: color,
-//                tableView: color,
-//                tableViewCell: color,
-//                tableViewHeader: color,
-//                tableViewFooter: color,
-//                tableViewHeaderSection: color,
-//                tableViewFooterSection: color,
-//                collectionView: color,
-//                collectionViewCell: color,
-//                collectionViewHeader: color,
-//                collectionViewFooter: color,
-//                collectionViewHeaderSection: color,
-//                collectionViewFooterSection: color)))
-        
-        
-//        MGTemplate.setup(
-//            assets: TemplateAssets(
-//                viewColor: TemplateViewColor(
-//                    primary: TemplateColorData(
-//                        view: #colorLiteral(red: 0.08235294118, green: 0.0862745098, blue: 0.1137254902, alpha: 1),
-//                        navigationBar: .red,
-//                        toolBar: .red,
-//                        scrollView: .red,
-//                        tableView: .red,
-//                        tableViewCell: .red,
-//                        tableViewHeader: .red,
-//                        tableViewFooter: .red,
-//                        tableViewHeaderSection: .red,
-//                        tableViewFooterSection: .red,
-//                        collectionView: .red,
-//                        collectionViewCell: .red,
-//                        collectionViewHeader: .red,
-//                        collectionViewFooter: .red,
-//                        collectionViewHeaderSection: .yellow,
-//                        collectionViewFooterSection: .red),
-//                    secondary: TemplateColorData(
-//                        view: .red,
-//                        navigationBar: .red,
-//                        toolBar: .red,
-//                        scrollView: .red,
-//                        tableView: .red,
-//                        tableViewCell: .red,
-//                        tableViewHeader: .red,
-//                        tableViewFooter: .red,
-//                        tableViewHeaderSection: .red,
-//                        tableViewFooterSection: .red,
-//                        collectionView: .red,
-//                        collectionViewCell: .red,
-//                        collectionViewHeader: .red,
-//                        collectionViewFooter: .red,
-//                        collectionViewHeaderSection: .red,
-//                        collectionViewFooterSection: .red)),
-//                contentColor: TemplateContentColor(
-//                    primary: TemplateColorData(
-//                        view: #colorLiteral(red: 0.08235294118, green: 0.0862745098, blue: 0.1137254902, alpha: 1),
-//                        navigationBar: .red,
-//                        toolBar: .red,
-//                        scrollView: .red,
-//                        tableView: .red,
-//                        tableViewCell: .red,
-//                        tableViewHeader: .red,
-//                        tableViewFooter: .red,
-//                        tableViewHeaderSection: .red,
-//                        tableViewFooterSection: .red,
-//                        collectionView: .red,
-//                        collectionViewCell: .red,
-//                        collectionViewHeader: .red,
-//                        collectionViewFooter: .red,
-//                        collectionViewHeaderSection: .yellow,
-//                        collectionViewFooterSection: .red),
-//                    secondary: TemplateColorData(
-//                        view: .red,
-//                        navigationBar: .red,
-//                        toolBar: .red,
-//                        scrollView: .red,
-//                        tableView: .red,
-//                        tableViewCell: .red,
-//                        tableViewHeader: .red,
-//                        tableViewFooter: .red,
-//                        tableViewHeaderSection: .red,
-//                        tableViewFooterSection: .red,
-//                        collectionView: .red,
-//                        collectionViewCell: .red,
-//                        collectionViewHeader: .red,
-//                        collectionViewFooter: .red,
-//                        collectionViewHeaderSection: .red,
-//                        collectionViewFooterSection: .red))))
-//
-//        MGTemplate.color.primary.collectionViewHeaderSection = .blue
-        
+
         return true
-    }
-
-    func applicationWillResignActive(_ application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
-    }
-
-    func applicationDidEnterBackground(_ application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-    }
-
-    func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-    }
-
-    func applicationDidBecomeActive(_ application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    }
-
-    func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
 }
@@ -247,13 +108,17 @@ struct TemplateColorText: MGTemplateColorText {
 }
 
 struct TemplateFont: MGTemplateFont {
-    var navigationBar: UIFont?
-    var toolBar: UIFont?
-    var primary: UIFont?
-    var secondary: UIFont?
-    var placeholder: UIFont?
-    var disabled: UIFont?
-    var error: UIFont?
+    var largeTitle: UIFont?
+    var title1: UIFont?
+    var title2: UIFont?
+    var title3: UIFont?
+    var headline: UIFont?
+    var body: UIFont?
+    var callout: UIFont?
+    var subhead: UIFont?
+    var footnote: UIFont?
+    var caption1: UIFont?
+    var caption2: UIFont?
 }
 
 //struct Font: MGFont {

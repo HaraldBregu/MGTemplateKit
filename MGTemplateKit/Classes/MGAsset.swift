@@ -55,13 +55,17 @@ public protocol MGTemplateColor {
 }
 
 public protocol MGTemplateFont {
-    var navigationBar: UIFont? { get set }
-    var toolBar: UIFont? { get set }
-    var primary: UIFont? { get set }
-    var secondary: UIFont? { get set }
-    var placeholder: UIFont? { get set }
-    var disabled: UIFont? { get set }
-    var error: UIFont? { get set }
+    var largeTitle: UIFont? { get set }
+    var title1: UIFont? { get set }
+    var title2: UIFont? { get set }
+    var title3: UIFont? { get set }
+    var headline: UIFont? { get set }
+    var body: UIFont? { get set }
+    var callout: UIFont? { get set }
+    var subhead: UIFont? { get set }
+    var footnote: UIFont? { get set }
+    var caption1: UIFont? { get set }
+    var caption2: UIFont? { get set }
 }
 
 public protocol MGTemplateColorText {
