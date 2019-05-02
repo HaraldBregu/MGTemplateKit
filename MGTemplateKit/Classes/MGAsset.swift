@@ -25,11 +25,6 @@
 
 import Foundation
 
-public protocol MGAsset {
-    var color: MGTemplateColor { get set }
-    var font: MGTemplateFont { get set }
-}
-
 public protocol MGTemplateColor {
     var view: UIColor { get set }
     var navigationBar: UIColor { get set }
@@ -62,6 +57,11 @@ public protocol MGTemplateColorText {
     var placeholder: UIColor { get set }
     var disabled: UIColor { get set }
     var error: UIColor { get set }
+}
+
+public protocol MGAsset {
+    var color: MGTemplateColor { get set }
+    var font: MGTemplateFont { get set }
 }
 
 public protocol MGTemplateFont {

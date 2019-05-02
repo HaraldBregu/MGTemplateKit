@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = MGTemplate.asset.color.view
+        view.backgroundColor = MGTemplate.color.view
         
         let size = 230
         imageView0.image = UIImage(icon: .ionicons(IoniconsType.androidHome), size: CGSize(width: size, height: size), textColor: .white, backgroundColor: .clear)

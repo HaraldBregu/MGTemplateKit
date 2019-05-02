@@ -29,24 +29,19 @@ import FontBlaster
 
 
 public class MGTemplate {
-    public static var asset: MGAsset!
-    public static var templateColor: MGTemplateColor!
-    public static var templateFont: MGTemplateFont!
+    public static var color: MGTemplateColor!
+    public static var font: MGTemplateFont!
 
     public static func configure() {
         FontBlaster.blast(bundle: Bundle(for: MGTemplate.self))
     }
     
-    public static func use(asset: MGAsset) {
-        MGTemplate.asset = asset
-    }
-    
-    public static func use(templateColor: MGTemplateColor) {
-        MGTemplate.templateColor = templateColor
+    public static func use(color: MGTemplateColor) {
+        MGTemplate.color = color
     }
 
-    public static func use(templateFont: MGTemplateFont) {
-        MGTemplate.templateFont = templateFont
+    public static func use(font: MGTemplateFont) {
+        MGTemplate.font = font
     }
 
 }
